@@ -1,4 +1,4 @@
-[This dotfiles repository](https://github.com/sergeylukin/dotfiles) contains custom VIM & Plugins configuration which helps coding/typing even faster
+[My dotfiles repo](https://github.com/sergeylukin/dotfiles) includes custom VIM & Plugins configuration which helps coding/typing even faster
 
 Below is a list of custom keystrokes set in configuration
 
