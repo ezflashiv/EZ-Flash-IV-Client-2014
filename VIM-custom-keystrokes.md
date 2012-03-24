@@ -11,13 +11,13 @@ Note that you can override any of these by editing `~/.vimrc.local` file.
 
 ## Plugin NERDTree
 
-* Open/Hide NERDTree browser - `,n`
+* `,n` - Open/Hide NERDTree browser
 
 
 ## Plugin Sparkup (zencoding)
 
-* Execute mapping - `Ctrl-e`
-* Next mapping - `Ctrl-n`
+* `Ctrl-e` - Execute mapping
+* `Ctrl-n` - Next mapping
 
 
 ## Plugin tComment (commenting blocks of text/code)
