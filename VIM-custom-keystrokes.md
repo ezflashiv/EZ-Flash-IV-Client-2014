@@ -2,7 +2,7 @@
 
 Below is a list of custom keystrokes set in configuration
 
-Note that you can override any of these by editing `~/.vimrc.local` file
+Note that you can override any of these by creating & editing `~/.vimrc.local` file
 
 ## General
 
