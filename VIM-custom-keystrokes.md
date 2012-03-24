@@ -5,7 +5,7 @@ Below is a list of some custom keystrokes (will be adding more soon):
 ## General
 
 * `,` - this key is used in combination with other keys to call actions
-* `<space>` - Enter Command mode from Norman mode
+* `<space>` - Enter Command mode from Normal mode
 
 ## Plugin NERDTree
 
