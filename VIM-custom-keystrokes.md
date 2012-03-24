@@ -1,8 +1,8 @@
-[This dotfiles repository](https://github.com/sergeylukin/dotfiles) contains custom VIM & Plugins configuration which helps coding/typing even faster.
+[This dotfiles repository](https://github.com/sergeylukin/dotfiles) contains custom VIM & Plugins configuration which helps coding/typing even faster
 
-Below is a list of custom keystrokes set in configuration currently.
+Below is a list of custom keystrokes set in configuration
 
-Note that you can override any of these by editing `~/.vimrc.local` file.
+Note that you can override any of these by editing `~/.vimrc.local` file
 
 ## General
 
