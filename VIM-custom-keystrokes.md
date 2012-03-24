@@ -6,7 +6,7 @@ Note that you can override any of these by editing `~/.vimrc.local` file.
 
 ## General
 
-* `,` - this key (so called `<leader>`) is used in combination with other keys to call different actions
+* `,` - So called `<leader>`, is used in combination with other keys to call different actions
 * `;` - Switch from **normal mode** to **command mode**
 * `,ev` - Open ~/.vimrc file in new tab - very fast & useful
 
