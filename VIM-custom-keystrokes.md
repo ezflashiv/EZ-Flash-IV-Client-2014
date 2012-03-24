@@ -6,7 +6,7 @@ Note that you can override any of these by editing `~/.vimrc.local` file.
 
 ## General
 
-* `,` - this key (so called `<leader>`) is used in combination with other keys to call actions
+* `,` - this key (so called `<leader>`) is used in combination with other keys to call different actions
 * `<space>` - Enter Command mode from Normal mode
 
 ## Plugin NERDTree
