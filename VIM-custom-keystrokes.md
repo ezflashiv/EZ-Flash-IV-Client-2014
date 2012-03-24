@@ -2,7 +2,7 @@ This dotfiles repository contains custom VIM & Plugins configuration which helps
 
 Note that you can override any of present configurations by editing `~/.vimrc.local` file.
 
-Below is a list of some custom keystrokes (will be adding more soon):
+Below is a list of some custom keystrokes used in present configuration:
 
 ## General
 
