@@ -22,4 +22,4 @@ Note that you can override any of these by editing `~/.vimrc.local` file.
 
 ## Plugin tComment (commenting blocks of text/code)
 
-* Comment selected lines/letters - `,c`
+* `,c` - Comment selected lines/letters
