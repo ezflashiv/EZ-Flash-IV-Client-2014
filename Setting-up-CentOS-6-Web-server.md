@@ -15,11 +15,15 @@
 
 ### Ruby
 * cd /usr/local/src
-* Download latest version from http://www.ruby-lang.org/en/downloads/
-* tar xvfz ruby*.tar.gz
-* cd ruby*
+* download & extract latest version from http://www.ruby-lang.org/en/downloads/
+* change directory to ruby's source
 * ./configure
 * make && make install
+
+### Ruby Gems
+* cd /usr/local/src
+* download & extract latest version from http://rubygems.org/pages/download
+* ruby setup.rb
 
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
