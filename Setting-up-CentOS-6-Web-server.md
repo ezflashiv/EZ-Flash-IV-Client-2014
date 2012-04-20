@@ -14,6 +14,16 @@
 * Add Virtual hosts files in /etc/httpd/conf.d/
 
 ### Ruby
+
+Install YAML (required):
+
+* Download & extract latest version from http://pyyaml.org/download/libyaml/
+* change directory to yaml's source
+* /configure --prefix=/usr/local
+* make && make install
+
+Install RUBY:
+
 * cd /usr/local/src
 * download & extract latest version from http://www.ruby-lang.org/en/downloads/
 * change directory to ruby's source
