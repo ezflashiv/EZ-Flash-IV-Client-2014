@@ -11,7 +11,8 @@
 * chkconfig --levels 235 httpd on
 * chown www:www /var/www -R
 * Set ServerName to 127.0.0.1:80 and NameVirtualHost to *:80 in /etc/httpd/conf/httpd.conf
-* Add Virtual hosts files in /etc/httpd/conf.d/
+* add Include virtuals/* to /etc/httpd/conf/httpd.conf
+* Add Virtual hosts files in /etc/httpd/virtuals/
 
 ### Ruby
 
@@ -40,6 +41,32 @@ Install RUBY:
 
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
+* add following to /etc/httpd/conf.d/php.conf:
+
+
+```
+# PHP Configuration for Apache
+#
+# Load the apache module
+#
+LoadModule php5_module modules/libphp5.so
+#
+# Cause the PHP interpreter handle files with a .php extension.
+#
+<Files *.php>
+  SetOutputFilter PHP 
+  SetInputFilter PHP 
+  LimitRequestBody 9524288
+</Files>
+AddType application/x-httpd-php .php
+AddType application/x-httpd-php-source .phps
+#
+# Add index.php to the list of files that will be served as directory
+# indexes.
+#
+DirectoryIndex index.php
+```
+
 
 * Disable SELinux: set SELINUX=disabled in /etc/selinux/config
 (reboot to apply changes or run /usr/sbin/setenforce 0)
