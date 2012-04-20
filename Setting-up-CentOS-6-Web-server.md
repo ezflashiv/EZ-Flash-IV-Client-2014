@@ -40,3 +40,6 @@ Install RUBY:
 
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
+
+* Disable SELinux: set SELINUX=disabled in /etc/selinux/config
+(reboot to apply changes or run /usr/sbin/setenforce 0)
