@@ -20,7 +20,7 @@ Install YAML (required):
 
 * Download & extract latest version from http://pyyaml.org/download/libyaml/
 * change directory to yaml's source
-* /configure --prefix=/usr/local
+* ./configure --prefix=/usr/local
 * make && make install
 
 Install RUBY:
@@ -41,6 +41,10 @@ Install RUBY:
 
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
+* ..
+* ./configure --prefix=/usr/local --with-apxs2=/usr/sbin/apxs'
+* make && make install
+* ..
 * add following to /etc/httpd/conf.d/php.conf:
 
 
