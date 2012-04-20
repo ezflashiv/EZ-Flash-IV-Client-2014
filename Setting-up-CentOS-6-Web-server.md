@@ -4,7 +4,7 @@
 
 ### Dev tools
 * yum groupinstall "Development Tools"
-* yum install man wget vim readline-devel
+* yum install man wget vim readline-devel mlocate
 
 ### Apache
 * yum install httpd
