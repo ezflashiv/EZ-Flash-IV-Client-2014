@@ -27,7 +27,7 @@ Install RUBY:
 * cd /usr/local/src
 * download & extract latest version from http://www.ruby-lang.org/en/downloads/
 * change directory to ruby's source
-* ./configure
+* ./configure --prefix=/usr/local
 * make && make install
 
 ### Ruby Gems
