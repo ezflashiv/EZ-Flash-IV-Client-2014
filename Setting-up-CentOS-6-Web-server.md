@@ -25,5 +25,8 @@
 * download & extract latest version from http://rubygems.org/pages/download
 * ruby setup.rb
 
+### Gems
+* gem install jekyll
+
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
