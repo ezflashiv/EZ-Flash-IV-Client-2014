@@ -27,7 +27,7 @@ Install RUBY:
 * cd /usr/local/src
 * download & extract latest version from http://www.ruby-lang.org/en/downloads/
 * change directory to ruby's source
-* ./configure --prefix=/usr/local
+* ./configure --prefix=/usr/local --enable-shared --disable-install-doc --with-opt-dir=/usr/local/lib
 * make && make install
 
 ### Ruby Gems
