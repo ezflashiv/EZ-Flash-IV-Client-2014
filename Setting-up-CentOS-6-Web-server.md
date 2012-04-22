@@ -12,7 +12,7 @@ export LC_ALL=en_US.UTF-8
 
 ### Dev tools
 * yum groupinstall "Development Tools"
-* yum install man wget vim readline-devel mlocate
+* yum install man wget vim readline-devel mlocate mc
 
 ### Apache
 * yum install httpd
