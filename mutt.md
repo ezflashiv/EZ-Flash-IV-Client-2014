@@ -9,3 +9,9 @@
 `SHIFT-u` - undelete email/thread by match
 
 `$` - purge deleted items
+
+`m` - compose new email
+
+`f` - forward email
+
+`echo "something" | mutt some@email.com` - running this from CLI will send an email to some@email.com with No Subject and following body: something
