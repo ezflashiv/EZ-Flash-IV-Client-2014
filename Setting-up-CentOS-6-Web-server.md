@@ -49,6 +49,7 @@ Install RUBY:
 
 ### MySQL
 * yum install mysql-server mysql
+* chkconfig --levels 235 mysqld on
 
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
