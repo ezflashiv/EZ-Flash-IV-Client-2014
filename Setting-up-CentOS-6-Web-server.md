@@ -47,10 +47,13 @@ Install RUBY:
 ### Gems
 * gem install jekyll
 
+### MySQL
+* yum install mysql-server mysql
+
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
 * ..
-* ./configure --prefix=/usr/local --with-apxs2=/usr/sbin/apxs'
+* ./configure --prefix=/usr/local --with-apxs2=/usr/sbin/apxs --with-mysql --with-mysqli --with-pdo-mysql'
 * make && make install
 * ..
 * add following to /etc/httpd/conf.d/php.conf:
