@@ -21,6 +21,11 @@ export LC_ALL=en_US.UTF-8
 * Set ServerName to 127.0.0.1:80 and NameVirtualHost to *:80 in /etc/httpd/conf/httpd.conf
 * add Include virtuals/* to /etc/httpd/conf/httpd.conf
 * Add Virtual hosts files in /etc/httpd/virtuals/
+* Let others view logs:
+
+`
+chmod o+rx /var/log/httpd
+`
 
 ### Ruby
 
