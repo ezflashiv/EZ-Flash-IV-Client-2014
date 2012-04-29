@@ -111,6 +111,13 @@ AddType application/x-httpd-php-source .phps
 DirectoryIndex index.php
 ```
 
+### PhpMyAdmin
+* Download latest version from http://www.phpmyadmin.net
+* unpack and change directory
+* cp config.sample.inc.php config.inc.php
+* In config.inc.php replace `localhost` to `127.0.0.1`
+* login via web interface
+
 * Disable SELinux: set SELINUX=disabled in /etc/selinux/config
 (reboot to apply changes or run /usr/sbin/setenforce 0)
 * Copy /usr/local/src/php/php.ini-dev /usr/local/lib/php.ini
