@@ -50,6 +50,34 @@ Install RUBY:
 ### MySQL
 * yum install mysql-server mysql
 * chkconfig --levels 235 mysqld on
+* mysql -u root
+* Run `SELECT User, Host FROM mysql.user;`
+* For every root found, run:
+`
+SET PASSWORD FOR 'root'@'%HOST%' = PASSWORD('new-password');
+`
+
+For example:
+
+```
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new-password');
+
+SET PASSWORD FOR 'root'@'myserver' = PASSWORD('new-password');
+
+SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('new-password');
+```
+* For every empty user, run:
+`
+DROP USER ''@'%HOST%';
+`
+
+For example:
+
+```
+DROP USER ''@'localhost';
+
+DROP USER ''@'myserver';
+```
 
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
