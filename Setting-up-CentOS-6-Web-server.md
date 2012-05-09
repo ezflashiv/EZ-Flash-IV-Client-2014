@@ -117,6 +117,7 @@ DirectoryIndex index.php
 * unpack and change directory
 * cp config.sample.inc.php config.inc.php
 * In config.inc.php replace `localhost` to `127.0.0.1`
+* Uncomment storage settings and run /examples/create_tables.sql to enable Visual Designer
 * login via web interface
 
 
