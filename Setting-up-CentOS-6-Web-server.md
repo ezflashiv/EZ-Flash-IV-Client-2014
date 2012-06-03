@@ -84,7 +84,8 @@ DROP USER ''@'myserver';
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
 * ..
 * make clean
-* ```
+* Configure
+```
 ./configure \
 --prefix=/usr/local \
 --with-apxs2=/usr/sbin/apxs \
