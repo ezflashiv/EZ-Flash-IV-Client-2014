@@ -83,7 +83,8 @@ DROP USER ''@'myserver';
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
 * ..
-* ./configure --prefix=/usr/local --with-apxs2=/usr/sbin/apxs --with-mysql --with-mysqli --with-pdo-mysql'
+* make clean
+* ./configure --prefix=/usr/local --with-apxs2=/usr/sbin/apxs --with-mysql --with-mysqli --with-pdo-mysql --with-gd --enable-gd-native-ttf --with-jpeg-dir=/usr --with-png-dir=/usr --with-zlib-dir=/usr --with-xpm-dir=/usr --with-vpx-dir=/usr --with-freetype-dir=/usr --with-t1lib=/usr --with-libxml-dir=/usr
 * make && make install
 * ..
 * add following to /etc/httpd/conf.d/php.conf:
