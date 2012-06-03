@@ -49,9 +49,9 @@ Install RUBY:
 * gem install jekyll
 
 ### MySQL
-* yum install mysql-server mysql
-* chkconfig --levels 235 mysqld on
-* mysql -u root
+* `yum install mysql-server mysql`
+* `chkconfig --levels 235 mysqld on`
+* `mysql -u root`
 * Run `SELECT User, Host FROM mysql.user;`
 * For every root found, run:
 `
