@@ -103,7 +103,7 @@ DROP USER ''@'myserver';
 --with-t1lib=/usr \
 --with-libxml-dir=/usr
 ```
-* make && make install
+* `make && make install`
 * ..
 * add following to /etc/httpd/conf.d/php.conf:
 
@@ -134,7 +134,7 @@ DirectoryIndex index.php
 ### PhpMyAdmin
 * Download latest version from http://www.phpmyadmin.net
 * unpack and change directory
-* cp config.sample.inc.php config.inc.php
+* `cp config.sample.inc.php config.inc.php`
 * In config.inc.php replace `localhost` to `127.0.0.1`
 * Uncomment storage settings and run /examples/create_tables.sql to enable Visual Designer
 * login via web interface
