@@ -91,7 +91,7 @@ DROP USER ''@'myserver';
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
 * ..
 * `make clean`
-* Configure
+* Configure (enable apache2, mysql and JPEG-GD library)
 ```
 ./configure \
 --prefix=/usr/local \
@@ -100,15 +100,7 @@ DROP USER ''@'myserver';
 --with-mysqli \
 --with-pdo-mysql \
 --with-gd \
---enable-gd-native-ttf \
---with-jpeg-dir=/usr \
---with-png-dir=/usr \
---with-zlib-dir=/usr \
---with-xpm-dir=/usr \
---with-vpx-dir=/usr \
---with-freetype-dir=/usr \
---with-t1lib=/usr \
---with-libxml-dir=/usr
+--with-jpeg-dir=/usr
 ```
 * `make && make install`
 * ..
