@@ -143,4 +143,4 @@ DirectoryIndex index.php
 ### Misc
 * Disable SELinux: set SELINUX=disabled in /etc/selinux/config
 (reboot to apply changes or run /usr/sbin/setenforce 0)
-* Copy /usr/local/src/php/php.ini-dev /usr/local/lib/php.ini
+* `cp /usr/local/src/php/php.ini-dev /usr/local/lib/php.ini`
