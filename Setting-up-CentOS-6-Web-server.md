@@ -83,7 +83,7 @@ DROP USER ''@'myserver';
 ### PHP
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
 * ..
-* make clean
+* `make clean`
 * Configure
 ```
 ./configure \
