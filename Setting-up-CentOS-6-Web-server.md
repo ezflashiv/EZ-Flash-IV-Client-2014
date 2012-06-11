@@ -91,7 +91,7 @@ DROP USER ''@'myserver';
 * as described [here](http://benramsey.com/blog/2012/03/build-php-54-on-centos-62/)
 * ..
 * `make clean`
-* Configure (enable apache2, mysql and JPEG-GD library)
+* Configure (enable apache2, mysql, JPEG-GD library and OpenSSL)
 ```
 ./configure \
 --prefix=/usr/local \
@@ -100,7 +100,8 @@ DROP USER ''@'myserver';
 --with-mysqli \
 --with-pdo-mysql \
 --with-gd \
---with-jpeg-dir=/usr
+--with-jpeg-dir=/usr \
+--with-openssl
 ```
 * `make && make install`
 * ..
