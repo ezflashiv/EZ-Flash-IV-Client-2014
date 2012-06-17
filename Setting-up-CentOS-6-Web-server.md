@@ -139,6 +139,19 @@ DirectoryIndex index.php
 * Uncomment storage settings and run /examples/create_tables.sql to enable Visual Designer
 * login via web interface
 
+### NodeJS
+* download source from nodejs.org to /usr/local/src/
+* untar
+* cd
+* ./configure
+* make && make install
+
+### Redis
+* Download latest source from redis.io to /usr/local/src/
+* untar
+* cd
+* make
+
 
 ### Misc
 * Disable SELinux: set SELINUX=disabled in /etc/selinux/config
