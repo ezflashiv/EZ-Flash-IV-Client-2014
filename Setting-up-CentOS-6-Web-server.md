@@ -143,14 +143,14 @@ DirectoryIndex index.php
 * download source from nodejs.org to /usr/local/src/
 * untar
 * cd
-* ./configure
-* make && make install
+* `./configure`
+* `make && make install`
 
 ### Redis
 * Download latest source from redis.io to /usr/local/src/
 * untar
 * cd
-* make
+* `make`
 
 
 ### Misc
