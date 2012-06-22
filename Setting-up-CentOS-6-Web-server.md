@@ -55,6 +55,9 @@ Install RUBY:
 ### Gems
 * `gem install jekyll`
 
+### Misc stuff
+* `yum install python-pygments` - For using pygments in Jekyll
+
 ### MySQL
 * `yum install mysql-server mysql`
 * `chkconfig --levels 235 mysqld on`
