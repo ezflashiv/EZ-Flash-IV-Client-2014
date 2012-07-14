@@ -23,6 +23,7 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 #### Insert mode
 
 * `jj` - Switch from **insert mode** to **normal mode**
+* `<leader><tab>` - Code completion popup
 
 #### Command mode
 
