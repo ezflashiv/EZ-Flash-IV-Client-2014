@@ -6,16 +6,31 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 ## General
 
+#### Normal mode
+
 * `,` - So called `<leader>`, is used in combination with other keys to call different actions
 * `;` - Switch from **normal mode** to **command mode**
-* `,ev` - Open ~/.vimrc file in new tab - very fast & useful
+* `<leader>ev` - Open ~/.vimrc file in new tab - very fast & useful
+
+#### Insert mode
+
+* `jj` - Switch from **insert mode** to **normal mode**
+
+#### Command mode
+
+* `ff` - Open current file in Firefox
+
 
 ## Plugin NERDTree
 
-* `,n` - Open/Hide NERDTree browser
+#### Normal mode
+
+* `<leader>n` - Open/Hide NERDTree browser
 
 
 ## Plugin Sparkup (zencoding)
+
+#### Normal mode
 
 * `Ctrl-e` - Execute mapping
 * `Ctrl-n` - Next mapping
@@ -23,4 +38,6 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 ## Plugin tComment (commenting blocks of text/code)
 
-* `,c` - Comment selected lines/letters
+#### Normal mode
+
+* `<leader>c` - Comment selected lines/letters
