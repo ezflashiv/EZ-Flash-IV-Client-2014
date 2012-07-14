@@ -34,7 +34,7 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 #### Normal mode
 
-* `<leader>n` - Open/Hide NERDTree browser
+* `<leader>n` OR `<F3>` - Open/Hide NERDTree browser
 
 
 ## Plugin Sparkup (zencoding)
