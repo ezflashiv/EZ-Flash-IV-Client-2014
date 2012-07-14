@@ -11,8 +11,8 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 #### Visual mode
 
 * `gq` - Break selected line into multiple lines
-* `guu` - lowercase line
-* `gUU` - uppercase line
+* `gu` - lowercase line
+* `gU` - uppercase line
 
 #### Command mode
 
