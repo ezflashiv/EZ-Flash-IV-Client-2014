@@ -55,4 +55,4 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 #### Normal mode
 
-* `<leader>md` - convert markdown into HTML
+* `<leader>md` - convert markdown into HTML in current file
