@@ -6,7 +6,7 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 
 * `~` - invert case (upper->lower; lower->upper) of current character
 * `xp` - swap two characters around
-* `CTRL-A, CTRL-X` - increment, decrement next number on same line as the cursor
+* `CTRL-a, CTRL-x` - increment, decrement next number on same line as the cursor
 
 #### Visual mode
 
@@ -17,4 +17,4 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 #### Command mode
 
 * `:set paste` - enables paste mode which disables all automatic formatting. Highly useful when pasting some preformatted piece of code.
-* `:set paste&` - disables paste mode
+* `:set nopaste` - disables paste mode
