@@ -52,6 +52,13 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 * `<leader>c` - Comment selected lines/letters
 
 
+## Plugin RSpec
+
+#### Normal mode
+
+* `<leader>s` - Run RSpec
+
+
 ## Markdown (requires /usr/local/bin/Markdown.pl)
 
 #### Normal mode
