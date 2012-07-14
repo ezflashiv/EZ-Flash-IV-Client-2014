@@ -10,7 +10,15 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 * `,` - So called `<leader>`, is used in combination with other keys to call different actions
 * `;` - Switch from **normal mode** to **command mode**
+* `<leader>h` - Cancel highlighted selections
+* `<leader>r` - Reload opened files
+* `<leader>da` - Delete all buffers
 * `<leader>ev` - Open ~/.vimrc file in new tab - very fast & useful
+
+#### Visual mode
+
+* `<space>` - Fold/Unfold selected lines
+* `<leader>q` - Break one line text into multiple lines
 
 #### Insert mode
 
@@ -18,7 +26,7 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 #### Command mode
 
-* `ff` - Open current file in Firefox
+* `:ff` - Open current file in Firefox
 
 
 ## Plugin NERDTree
