@@ -41,3 +41,10 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 #### Normal mode
 
 * `<leader>c` - Comment selected lines/letters
+
+
+## Markdown (requires /usr/local/bin/Markdown.pl)
+
+#### Normal mode
+
+* `<leader>md` - convert markdown into HTML
