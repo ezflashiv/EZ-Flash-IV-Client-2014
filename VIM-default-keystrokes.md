@@ -7,6 +7,7 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 * `~` - invert case (upper->lower; lower->upper) of current character
 * `xp` - swap two characters around
 * `CTRL-a, CTRL-x` - increment, decrement next number on same line as the cursor
+* `J` - join the next line to the current line
 
 #### Visual mode
 
