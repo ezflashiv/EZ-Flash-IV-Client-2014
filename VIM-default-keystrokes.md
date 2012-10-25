@@ -97,7 +97,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `CTRL-W H` - move current window to the most left
 * `CTRL-W J` - move current window to the most bottom
 * `CTRL-W K` - move current window to the most top
-* `CTRL-W +` - increase the height of current window
-* `CTRL-W -` - decrease the height of current window
-* `CTRL-W >` - increase the width of current window
-* `CTRL-W <` - decrease the width of current window
+* `CTRL-W +` - increase the height of current window by one line
+* `CTRL-W -` - decrease the height of current window by one line
+* `CTRL-W >` - increase the width of current window by one column
+* `CTRL-W <` - decrease the width of current window by one column
