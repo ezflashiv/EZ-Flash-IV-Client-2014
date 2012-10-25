@@ -12,6 +12,7 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 * `f(` - moves the cursor to the first occurence of "("
 * `t(` - moves the cursor right before the first occurence of "("
 * `di"` - removes the contents cursor points at that is being wrapped by double quotes
+* `ci"` - removes the contents cursor points at that is being wrapped by double quotes and switches to **Insert mode**
 
 #### Visual mode
 
