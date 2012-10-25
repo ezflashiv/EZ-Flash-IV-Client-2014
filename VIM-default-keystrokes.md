@@ -24,6 +24,8 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `CTRL-d` - move the screen down by half
 * `CTRL-f` - move the whole screen down
 * `CTRL-b` - move the whole screen up
+* `CTRL-e` - move the screen up by one line
+* `CTRL-y` - move the screen down by one line
 * `zz` - move the screen so that current line would be in the middle
 * `zt` - move the screen so that current line would be in the top
 * `100zt` - move the screen so that line number **100** would be in the top
