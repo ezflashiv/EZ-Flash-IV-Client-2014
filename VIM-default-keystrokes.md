@@ -18,6 +18,10 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `M` - move cursor to the middle of the screen
 * `H` - move cursor to the top of the screen
 * `L` - move cursor to the bottom of the screen
+* `CTRL-u` - move the screen up by half
+* `CTRL-d` - move the screen down by half
+* `CTRL-f` - move the whole screen down
+* `CTRL-b` - move the whole screen up
 
 #### Visual mode
 
