@@ -60,7 +60,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 #### Using an existing macro
 
 * Press `@`
-* Press letter or number that represents desired macro
+* Press letter or number that represents desired macro or `@` to run last executed macro
 
 ## Markers
 
