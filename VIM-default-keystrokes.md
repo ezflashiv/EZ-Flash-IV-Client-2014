@@ -37,6 +37,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `gq` - Break selected line into multiple lines
 * `gu` - lowercase line
 * `gU` - uppercase line
+* `:!ls` - pass selected content to the "ls" command and paste in the output
 
 #### Command mode
 
