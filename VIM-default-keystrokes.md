@@ -19,3 +19,17 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 
 * `:set paste` - enables paste mode which disables all automatic formatting. Highly useful when pasting some preformatted piece of code.
 * `:set nopaste` - disables paste mode
+
+## Macros
+
+#### Recording a macro
+
+* Press `q`
+* Press any letter or number to assign macro to
+* Start typing commands to save in macro
+* Finish recording by pressing `q`
+
+#### Using an existing macro
+
+* Press `@`
+* Press letter or number that represents desired macro
