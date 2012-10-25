@@ -17,7 +17,9 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `da"` - removes the double quotes with contents inside
 * `M` - move cursor to the middle of the screen
 * `H` - move cursor to the top of the screen
+* `3H` - move cursor to the 3rd line from top
 * `L` - move cursor to the bottom of the screen
+* `3L` - move cursor to the 3rd line from bottom
 * `CTRL-u` - move the screen up by half
 * `CTRL-d` - move the screen down by half
 * `CTRL-f` - move the whole screen down
