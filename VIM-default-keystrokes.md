@@ -1,4 +1,5 @@
 Below you'll find list of keystrokes/commands built-in VIM by default which I'm using frequently.
+It is important to note that most (maybe even all) VIM commands related to text search/manipulation affect only first occurence by default.
 
 ## General
 
@@ -11,8 +12,9 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 * `J` - join the next line to the current line
 * `f(` - moves the cursor to the first occurence of "("
 * `t(` - moves the cursor right before the first occurence of "("
-* `di"` - removes the contents cursor points at that is being wrapped by double quotes
-* `ci"` - removes the contents cursor points at that is being wrapped by double quotes and switches to **Insert mode**
+* `di"` - removes the contents that is being wrapped by double quotes on the same line
+* `ci"` - removes the contents that is being wrapped by double quotes on the same line and switches to **Insert mode**
+* `da"` - removes the double quotes with contents inside
 
 #### Visual mode
 
