@@ -89,6 +89,8 @@ It is important to note that most (maybe even all) VIM commands related to text 
 
 * `:sp file.txt` - split current window horizontally and open **file.txt**
 * `:vs file.txt` - split current window vertically and open **file.txt**
+* `:sb2` - split current window horizontally and open in it buffer number 2
+* `:vert sb2` - split current window vertically and open in it buffer number 2
 * `CTRL-W l` - navigate to the closest window from the right
 * `CTRL-W h` - navigate to the closest window from the left
 * `CTRL-W j` - navigate to the closest window from the bottom
