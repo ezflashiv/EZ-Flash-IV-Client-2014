@@ -84,3 +84,20 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:b2` - switch to buffer number 2
 * `:bd` - delete current buffer
 * `:bd2` - delete buffer number 2
+
+## Splits
+
+* `:sp file.txt` - split current window horizontally and open **file.txt**
+* `:vs file.txt` - split current window vertically and open **file.txt**
+* `CTRL-W l` - navigate to the closest window from the right
+* `CTRL-W h` - navigate to the closest window from the left
+* `CTRL-W j` - navigate to the closest window from the bottom
+* `CTRL-W k` - navigate to the closest window from the top
+* `CTRL-L` - move current window to the most right
+* `CTRL-H` - move current window to the most left
+* `CTRL-J` - move current window to the most bottom
+* `CTRL-K` - move current window to the most top
+* `CTRL-W +` - increase the height of current window
+* `CTRL-W -` - decrease the height of current window
+* `CTRL-W >` - increase the width of current window
+* `CTRL-W <` - decrease the width of current window
