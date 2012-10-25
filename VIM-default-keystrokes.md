@@ -93,10 +93,10 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `CTRL-W h` - navigate to the closest window from the left
 * `CTRL-W j` - navigate to the closest window from the bottom
 * `CTRL-W k` - navigate to the closest window from the top
-* `CTRL-L` - move current window to the most right
-* `CTRL-H` - move current window to the most left
-* `CTRL-J` - move current window to the most bottom
-* `CTRL-K` - move current window to the most top
+* `CTRL-W L` - move current window to the most right
+* `CTRL-W H` - move current window to the most left
+* `CTRL-W J` - move current window to the most bottom
+* `CTRL-W K` - move current window to the most top
 * `CTRL-W +` - increase the height of current window
 * `CTRL-W -` - decrease the height of current window
 * `CTRL-W >` - increase the width of current window
