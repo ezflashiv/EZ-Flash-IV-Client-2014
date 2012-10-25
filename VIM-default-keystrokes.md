@@ -104,3 +104,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `CTRL-W >` - increase the width of current window by one column
 * `CTRL-W <` - decrease the width of current window by one column
 * `CTRL-W =` - resets all windows sizes to equal
+
+## Tabs
+
+* `:tabe file.txt` - create a new tab and open in it **file.txt**
