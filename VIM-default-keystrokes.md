@@ -55,3 +55,15 @@ It is important to note that most (maybe even all) VIM commands related to text 
 
 * Press `@`
 * Press letter or number that represents desired macro
+
+## Markers
+
+#### Saving a marker
+
+* Press `m`
+* Press any letter or number to assign marker to
+
+#### Move cursor to a saved marker
+
+* Press `'`
+* Press letter or number that represents desired marker
