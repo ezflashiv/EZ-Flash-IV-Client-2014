@@ -44,7 +44,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:set nopaste` - disables paste mode
 * `:!date` - run `date` command in your shell and print the output
 * `:read !date` - run `date` command in your shell and paste the output in editor
-* `:read !curl --silent http://example.com/file.txt` - download a file and paste it's content in editor
+* `:read !curl --silent http://example.com/file.txt` - download a file via **curl** and paste it's content in editor
 
 ## Macros
 
