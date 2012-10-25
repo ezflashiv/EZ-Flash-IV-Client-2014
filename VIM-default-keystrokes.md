@@ -77,6 +77,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 ## Buffers
 
 * `:ls` - prints all buffers
+* `:bf` - switch to the first buffer
 * `:bp` - switch to previous buffer
 * `:bn` - switch to next buffer
 * `:b#` - switch to last visited buffer
