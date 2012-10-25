@@ -42,6 +42,8 @@ It is important to note that most (maybe even all) VIM commands related to text 
 
 * `:set paste` - enables paste mode which disables all automatic formatting. Highly useful when pasting some preformatted piece of code.
 * `:set nopaste` - disables paste mode
+* `:!date` - run `date` command in your shell and print the output
+* `:read !date` - run `date` command in your shell and paste the output in editor
 
 ## Macros
 
