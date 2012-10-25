@@ -108,3 +108,4 @@ It is important to note that most (maybe even all) VIM commands related to text 
 ## Tabs
 
 * `:tabe file.txt` - create a new tab and open in it **file.txt**
+* `gt` - move to the next tab
