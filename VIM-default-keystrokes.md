@@ -6,8 +6,12 @@ Below you'll find list of keystrokes/commands built-in VIM by default which I'm 
 
 * `~` - invert case (upper->lower; lower->upper) of current character
 * `xp` - swap two characters around
+* `dj` - cut current line and next line
 * `CTRL-a, CTRL-x` - increment, decrement next number on same line as the cursor
 * `J` - join the next line to the current line
+* `f(` - moves the cursor to the first occurence of "("
+* `t(` - moves the cursor right before the first occurence of "("
+* `di"` - removes the contents cursor points at that is being wrapped by double quotes
 
 #### Visual mode
 
