@@ -82,7 +82,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:bn` - switch to next buffer
 * `:b#` - switch to last visited buffer
 * `:b2` - switch to buffer number 2
-* `:bd` - delete current buffer
+* `:bd` - delete current buffer (in other words close the file)
 * `:bd2` - delete buffer number 2
 
 ## Splits
