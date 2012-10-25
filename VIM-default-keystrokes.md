@@ -15,6 +15,9 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `di"` - removes the contents that is being wrapped by double quotes on the same line
 * `ci"` - removes the contents that is being wrapped by double quotes on the same line and switches to **Insert mode**
 * `da"` - removes the double quotes with contents inside
+* `CTRL-M` - move cursor to the middle of the screen
+* `CTRL-H` - move cursor to the top of the screen
+* `CTRL-L` - move cursor to the bottom of the screen
 
 #### Visual mode
 
