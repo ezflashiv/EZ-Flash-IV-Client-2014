@@ -32,6 +32,8 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `zb` - move the screen so that current line would be in the bottom
 * `' '` - move the cursor to previously visited line
 * `> >` - indent current line
+* `2 > >` - indent current line and next line
+* `< <` - remove one indent for current line
 
 #### Visual mode
 
