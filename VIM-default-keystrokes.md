@@ -30,7 +30,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `zt` - move the screen so that current line would be in the top
 * `100zt` - move the screen so that line number **100** would be in the top
 * `zb` - move the screen so that current line would be in the bottom
-* `''` - move the cursor to previously visited line
+* `' '` - move the cursor to previously visited line
 * `> >` - indent current line
 
 #### Visual mode
