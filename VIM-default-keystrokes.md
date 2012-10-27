@@ -103,7 +103,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `CTRL-W -` - decrease the height of current window by one line
 * `CTRL-W >` - increase the width of current window by one column
 * `CTRL-W <` - decrease the width of current window by one column
-* `CTRL-W =` - resets all windows sizes to equal
+* `CTRL-W =` - equally distribute the heights and the widths between visible windows
 
 ## Tabs
 
