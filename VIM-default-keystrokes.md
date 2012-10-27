@@ -36,6 +36,9 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `< <` - remove one indent for current line
 * `= =` - auto-indent current line
 * `= G` - auto-indent everything from current line to the end of file
+* `zf5j` - fold current line and 5 more lines below it
+* `zo` - expand fold
+* `zc` - collapse fold
 
 #### Visual mode
 
