@@ -55,6 +55,10 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:read !date` - run `date` command in your shell and paste the output in editor
 * `:read !curl --silent http://example.com/file.txt` - download a file via **curl** and paste it's content in editor
 
+#### Insert mode
+
+* `CTRL-t, CTRL-d` - add indentation, remove indentation for current line
+
 ## Macros
 
 #### Recording a macro
