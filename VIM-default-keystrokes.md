@@ -105,19 +105,20 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:vs file.txt` - split current window vertically and open **file.txt**
 * `:sb2` - split current window horizontally and open in it buffer number 2
 * `:vert sb2` - split current window vertically and open in it buffer number 2
-* `CTRL-W l` - navigate to the closest window from the right
-* `CTRL-W h` - navigate to the closest window from the left
-* `CTRL-W j` - navigate to the closest window from the bottom
-* `CTRL-W k` - navigate to the closest window from the top
-* `CTRL-W L` - move current window to the most right
-* `CTRL-W H` - move current window to the most left
-* `CTRL-W J` - move current window to the most bottom
-* `CTRL-W K` - move current window to the most top
-* `CTRL-W +` - increase the height of current window by one line
-* `CTRL-W -` - decrease the height of current window by one line
-* `CTRL-W >` - increase the width of current window by one column
-* `CTRL-W <` - decrease the width of current window by one column
-* `CTRL-W =` - equally distribute the heights and the widths between visible windows
+* `CTRL-w l` - navigate to the closest window from the right
+* `CTRL-w h` - navigate to the closest window from the left
+* `CTRL-w j` - navigate to the closest window from the bottom
+* `CTRL-w k` - navigate to the closest window from the top
+* `CTRL-w L` - move current window to the most right
+* `CTRL-w H` - move current window to the most left
+* `CTRL-w J` - move current window to the most bottom
+* `CTRL-w K` - move current window to the most top
+* `CTRL-w +` - increase the height of current window by one line
+* `CTRL-w -` - decrease the height of current window by one line
+* `CTRL-w >` - increase the width of current window by one column
+* `CTRL-w <` - decrease the width of current window by one column
+* `CTRL-w =` - equally distribute the heights and the widths between visible windows
+* `CTRL-w T` - moves current window to a new separate tab
 
 ## Tabs
 
