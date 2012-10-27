@@ -34,6 +34,8 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `> >` - indent current line
 * `2 > >` - indent current line and next line
 * `< <` - remove one indent for current line
+* `= =` - auto-indent current line
+* `= G` - auto-indent everything from current line to the end of file
 
 #### Visual mode
 
