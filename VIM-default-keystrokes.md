@@ -40,6 +40,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `gq` - Break selected line into multiple lines
 * `gu` - lowercase line
 * `gU` - uppercase line
+* `o` - move the cursor the the opposite end of selection (very useful if you want to add/remove selection from opposite side)
 * `:!ls` - pass selected content to the "ls" command and paste in the output
 
 #### Command mode
