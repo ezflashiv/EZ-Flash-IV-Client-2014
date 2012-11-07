@@ -54,7 +54,7 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 
 - `cd /usr/src/sys/i386/conf`
 - `mkdir /root/kernels`
-- `cp GENERIC /root/kernels/WORKSTATION` or copy from backup
+- `cp GENERIC /root/kernels/WORKSTATION` or use [this template](https://gist.github.com/4032674) (check compatibility first)
 - `ln -s /root/kernels/WORKSTATION`
 - edit `/root/kernels/WORKSTATION` accordingly
 - `cd /usr/src`
