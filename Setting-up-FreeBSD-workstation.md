@@ -15,4 +15,5 @@
 
 - Log in with root user
 - Run `freebsd-update fetch install` - to install the latest OS patches
-- Run `portsnap fetch extract` - to download and extract the ports tree
+- Run `portsnap fetch extract` - to download and extract the ports tree (should be done only once)
+- Run `portsnap fetch update` - to update the ports tree (repeat this step frequently)
