@@ -19,6 +19,8 @@
 - Choose to stay in the shell or boot from Installation Media's and enter it's shell
 - Run `sysctl kern.geom.debugflags=16` to be able changing the boot partition (not required if booted from Installation Media)
 - Launch `sysinstall`, enter **Configure** section, launch **Fdisk** utility, set FreeBSD Primary partition as **Active** by pressing `s` keyword when it is selected, exit and choose FreeBSD Boot Manager to be installed in MBR
+- Reboot and check that FreeBSD Boot Manager provides menu with all existing Operating Systems.
+- In order to customize FreeBSD Boot Manager and remove some unwanted menu items refer to [boot0cfg](http://www.freebsd.org/cgi/man.cgi?query=boot0cfg) tool
 
 ## Post-installation
 
