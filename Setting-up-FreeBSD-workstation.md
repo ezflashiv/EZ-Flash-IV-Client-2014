@@ -22,7 +22,7 @@
 - Reboot and check that FreeBSD Boot Manager provides menu with all existing Operating Systems.
 - In order to customize FreeBSD Boot Manager and remove some unwanted menu items refer to [boot0cfg](http://www.freebsd.org/cgi/man.cgi?query=boot0cfg) tool.
 
-Here is a small tip on removing menu items. Assuming you get this menu:
+Here is a small tip on removing menu items. Assuming you have this menu:
 
   - F1 FreeBSD
   - F2 Windows
