@@ -23,6 +23,7 @@
 - In order to customize FreeBSD Boot Manager and remove some unwanted menu items refer to [boot0cfg](http://www.freebsd.org/cgi/man.cgi?query=boot0cfg) tool.
 
 Here is a small tip on removing menu items. Assuming you get this menu:
+
   - F1 FreeBSD
   - F2 Windows
   - F3 ?
@@ -30,6 +31,13 @@ Here is a small tip on removing menu items. Assuming you get this menu:
 and you would like to remove the third one (looks like it's a FAT32 partition without any OS for file sharing between FreeBSD and Windows) you would run (replace `/dev/ada0` with your drive):
 
 `boot0cfg -m 0x3 /dev/ada0`
+
+0x3 is a hexadecimal of 3, while 3 is a sum of integers that represent each item. Each item's integer is previous item's integer multiplied by 2, so:
+
+  - F1 = 1
+  - F2 = 2
+  - F3 = 4
+  - etc.
 
 ## Post-installation
 
