@@ -32,7 +32,7 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 
 `boot0cfg -m 0x3 /dev/ada0`
 
-0x3 is a hexadecimal of 3, while 3 is a sum of integers that represent each active item. Each item's integer is previous item's integer multiplied by 2, so:
+0x3 is a hexadecimal of decimal 3, while 3 is a sum of integers that represent each active item. Each item's integer is previous item's integer multiplied by 2, so:
 
   - F1 = 1
   - F2 = 2
