@@ -1,4 +1,7 @@
-### Installation
+## Installation
+
+
+### System
 
 - Prepare the Installation Media (CD or USB memory stick)
 - Boot from Installation Media and choose to Install the OS
@@ -9,10 +12,15 @@
         - Type: "freebsd-swap", Size: "2Gb", Mountpoint: "", Logical partition
 - Check sshd in system configuration menu
 - Add user with defaults plus add them to group "wheel"
-- Run `sysctl kern.geom.debugflags=16` to be able changing the boot partition (only required if applying partition changes on drive you booted from)
+
+
+### MBR and FreeBSD Boot Manager
+
+- Choose to stay in the shell or boot from Installation Media's shell
+- Run `sysctl kern.geom.debugflags=16` to be able changing the boot partition (not required if booted from Installation Media)
 - Launch `sysinstall`, enter **Configure** section, launch **Fdisk** utility, set FreeBSD Primary partition as **Active** by pressing `s` keyword when it is selected, exit and choose FreeBSD Boot Manager to be installed in MBR
 
-### Post-installation
+## Post-installation
 
 - Log in with root user
 - Run `freebsd-update fetch install` - to install the latest OS patches
