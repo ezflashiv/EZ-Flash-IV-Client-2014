@@ -20,7 +20,16 @@
 - Run `sysctl kern.geom.debugflags=16` to be able changing the boot partition (not required if booted from Installation Media)
 - Launch `sysinstall`, enter **Configure** section, launch **Fdisk** utility, set FreeBSD Primary partition as **Active** by pressing `s` keyword when it is selected, exit and choose FreeBSD Boot Manager to be installed in MBR
 - Reboot and check that FreeBSD Boot Manager provides menu with all existing Operating Systems.
-- In order to customize FreeBSD Boot Manager and remove some unwanted menu items refer to [boot0cfg](http://www.freebsd.org/cgi/man.cgi?query=boot0cfg) tool
+- In order to customize FreeBSD Boot Manager and remove some unwanted menu items refer to [boot0cfg](http://www.freebsd.org/cgi/man.cgi?query=boot0cfg) tool.
+
+Here is a small tip on removing menu items. Assuming you get this menu:
+  - F1 FreeBSD
+  - F2 Windows
+  - F3 ?
+
+and you would like to remove the third one (looks like it's a FAT32 partition without any OS for file sharing between FreeBSD and Windows) you would run (replace `/dev/ada0` with your drive):
+
+`boot0cfg -m 0x3 /dev/ada0`
 
 ## Post-installation
 
