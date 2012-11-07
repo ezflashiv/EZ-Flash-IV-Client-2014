@@ -41,7 +41,22 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 
 ## Post-installation
 
+
+### Patch and update system
+
 - Log in with root user
 - Run `freebsd-update fetch install` - to install the latest OS patches
 - Run `portsnap fetch extract` - to download and extract the ports tree (should be done only once)
 - Run `portsnap fetch update` - to update the ports tree (repeat this step frequently)
+
+
+### Kernel
+
+- `cd /usr/src/sys/i386/conf`
+- `mkdir /root/kernels`
+- `cp GENERIC /root/kernels/WORKSTATION` or copy from backup
+- `ln -s /root/kernels/WORKSTATION`
+- edit `/root/kernels/WORKSTATION` accordingly
+- `cd /usr/src`
+- `make buildkernel KERNCONF=WORKSTATION`
+- `make installkernel KERNCONF=WORKSTATION`
