@@ -9,6 +9,7 @@
         - Type: "freebsd-swap", Size: "2Gb", Mountpoint: "", Logical partition
 - Check sshd in system configuration menu
 - Add user with defaults plus add them to group "wheel"
+- When in root prompt, launch `sysinstall` and set FreeBSD Primary partition as **Active** by pressing `s` keyword in **fdisk** tool and install FreeBSD Boot Manager in MBR (choose this options in the menu that will pop up after you exit **fdisk**)
 
 ### Post-installation
 
