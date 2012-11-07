@@ -50,7 +50,7 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 - Run `portsnap fetch update` - to update the ports tree (repeat this step frequently)
 
 
-### Kernel
+### Build Kernel
 
 - `cd /usr/src/sys/i386/conf`
 - `mkdir /root/kernels`
