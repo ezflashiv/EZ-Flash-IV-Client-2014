@@ -60,3 +60,8 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 - `cd /usr/src`
 - `make buildkernel KERNCONF=WORKSTATION`
 - `make installkernel KERNCONF=WORKSTATION`
+
+
+### X Window System
+
+- Install Xorg `cd /usr/ports/x11/xorg && make install clean` (X11 FreeBSD implementation)
