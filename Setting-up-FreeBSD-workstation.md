@@ -65,3 +65,8 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 ### X Window System
 
 - Install Xorg `cd /usr/ports/x11/xorg && make install clean` (X11 FreeBSD implementation)
+- Add following lines to your **/etc/rc.conf**:
+```
+hald_enable="YES"
+dbus_enable="YES"
+```
