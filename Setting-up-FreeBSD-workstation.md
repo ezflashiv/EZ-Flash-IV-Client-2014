@@ -30,7 +30,9 @@ Here is a small tip on removing menu items. Assuming you have this menu:
 
 and you would like to remove the third one (looks like it's a FAT32 partition without any OS for file sharing between FreeBSD and Windows) you would run (replace `/dev/ada0` with your drive):
 
-`boot0cfg -m 0x3 /dev/ada0`
+```
+boot0cfg -m 0x3 /dev/ada0
+```
 
 0x3 is a hexadecimal of decimal 3, while 3 is a sum of integers that represent each active item. Each item's integer is previous item's integer multiplied by 2, so:
 
