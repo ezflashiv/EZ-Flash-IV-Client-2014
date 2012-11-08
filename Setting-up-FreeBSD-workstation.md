@@ -73,8 +73,8 @@ dbus_enable="YES"
 ```
 - Build initial configuration file `Xorg -configure`
 - Modify **/root/xorg.conf.new** or use [this template](http://google.com) (check compatibility)
-- Test configuration file `Xorg -config xorg.conf.new -retro`
-- `cp xorg.conf.new /etc/X11/xorg.conf`
+- Test `Xorg -config xorg.conf.new -retro`
+- Deploy `mv xorg.conf.new /etc/X11/xorg.conf`
 - You can change Console's Video Mode. To see all available video modes run `vidcontrol -i mode`. Assuming you picked mode **280**, test it with `vidcontrol MODE_280` and if it works fine add following to **/etc/rc.conf**:
 ```
 # Console Video Mode
