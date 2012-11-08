@@ -72,7 +72,7 @@ hald_enable="YES"
 dbus_enable="YES"
 ```
 - Build initial configuration file `Xorg -configure`
-- Modify **/root/xorg.conf.new** or use [this template](http://google.com) (check compatibility)
+- Modify **/root/xorg.conf.new** or use [this template](https://gist.github.com/4039008) (check compatibility)
 - Test `Xorg -config xorg.conf.new -retro`
 - Deploy `mv xorg.conf.new /etc/X11/xorg.conf`
 - You can change Console's Video Mode. To see all available video modes run `vidcontrol -i mode`. Assuming you picked mode **280**, test it with `vidcontrol MODE_280` and if it works fine add following to **/etc/rc.conf**:
