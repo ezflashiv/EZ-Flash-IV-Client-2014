@@ -86,5 +86,5 @@ allscreens_flags="MODE_280"
 
 ### Desktop Environment
 
-- Install Xfce `cd /usr/ports/x11-wm/xfce4 && make install clean`
-- Set Xfce by default `echo "/usr/local/bin/startxfce4" > ~/.xinitrc`
+- Install **Xfce** `cd /usr/ports/x11-wm/xfce4 && make install clean`
+- Set **Xfce** by default `echo "/usr/local/bin/startxfce4" > ~/.xinitrc`
