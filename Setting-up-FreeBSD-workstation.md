@@ -67,6 +67,12 @@ and you would like to remove the third one (looks like it's a FAT32 partition wi
 - Install Xorg `cd /usr/ports/x11/xorg && make install clean` (X11 FreeBSD implementation)
 - Add following lines to your **/etc/rc.conf**:
 ```
+# Xorg
 hald_enable="YES"
 dbus_enable="YES"
+```
+- You can change Console's Video Mode. To see all available video modes run `vidcontrol -i mode`. Assuming you picked mode **280**, add following to **/etc/rc.conf**:
+```
+# Console Video Mode
+allscreens_flags="MODE_280"
 ```
