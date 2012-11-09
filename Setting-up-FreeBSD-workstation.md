@@ -66,6 +66,13 @@ boot0cfg -m 0x3 /dev/ada0
 - `make installkernel KERNCONF=WORKSTATION`
 
 
+### Install Dev Tools
+
+- **IDE** `cd /usr/ports/editors/vim && make install clean`
+- **Version Control System** `cd /usr/ports/devel/git && make install clean`
+- **Shell** `cd /usr/ports/shells/zsh && make install clean`
+- **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
+
 
 ## GUI
 
@@ -97,12 +104,6 @@ allscreens_flags="MODE_280"
 
 
 
-## Programs
+### Install Utilities
 
-
-### Dev Tools
-
-- **IDE** `cd /usr/ports/editors/vim && make install clean`
-- **Version Control System** `cd /usr/ports/devel/git && make install clean`
-- **Shell** `cd /usr/ports/shells/zsh && make install clean`
-- **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
+- **Opera** `cd /usr/ports/www/opera && make install clean`
