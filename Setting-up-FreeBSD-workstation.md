@@ -118,6 +118,12 @@ allscreens_flags="MODE_280"
 
 
 
+### Themes & Icons
+
+- Download themes into **~/.themes** and select them in **Settings** -> **Window Manager** and **Settings** -> **Appearance** (highly recommend theme called **Victory (Strikes Again)**)
+- Download icons into **~/.icons** and select them in **Settings** -> **Appearance** -> **Icons** (highly recommend [this icons pack](http://newhoa.deviantart.com/art/Victory-Icon-Collection-188206119))
+
+
 ### Install Utilities
 
 - **Opera** `cd /usr/ports/www/opera && make install clean`
