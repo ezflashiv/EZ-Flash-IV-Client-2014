@@ -41,6 +41,8 @@ boot0cfg -m 0x3 /dev/ada0
   - F3 = 4
   - etc.
 
+
+
 ## Post-installation
 
 
@@ -62,6 +64,10 @@ boot0cfg -m 0x3 /dev/ada0
 - `cd /usr/src`
 - `make buildkernel KERNCONF=WORKSTATION`
 - `make installkernel KERNCONF=WORKSTATION`
+
+
+
+## GUI
 
 
 ### X Window System
@@ -88,6 +94,10 @@ allscreens_flags="MODE_280"
 
 - Install **Xfce** `cd /usr/ports/x11-wm/xfce4 && make install clean`
 - Set **Xfce** by default `echo "/usr/local/bin/startxfce4" > ~/.xinitrc` for current user only or `echo "/usr/local/bin/startxfce4" > /usr/local/lib/X11/xinit/xinitrc` for all users (run `find / -name xinitrc` to find correct path for global xinitrc file)
+
+
+
+## Programs
 
 
 ### Dev Tools
