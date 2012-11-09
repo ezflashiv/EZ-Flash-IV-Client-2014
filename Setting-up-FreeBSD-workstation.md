@@ -66,16 +66,18 @@ boot0cfg -m 0x3 /dev/ada0
 - `make installkernel KERNCONF=WORKSTATION`
 
 
-### Set Locale
+### UTF-8
 
-- For global set open `/etc/login.conf` and add 2 lines to **default** block, like so:
+- Check current locale by running `locale`
+- To enable UTF-8 for specific user add 2 lines to **me** block in **~/.login_conf**, like so (replace **en_US** with any available locale that is listed in `locale -a | grep UTF-8`):
 ```
-default:\
-        ...
-        :charset=UTF-8:\
-        :lang=en_US.UTF-8:
+me:\
+   ...
+   :charset=UTF-8:\
+   :lang=en_US.UTF-8:
 ```
-- For per-user basis, add same 2 lines to **me** block
+- To enable UTF-8 globally, add same 2 lines to **default** block in **/etc/login.conf** and run `cap_mkdb /etc/login.conf`
+- Exit all active sessions and after login verify that new settings were applied by running `locale`
 
 
 ### Install Dev Tools
