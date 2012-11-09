@@ -66,6 +66,18 @@ boot0cfg -m 0x3 /dev/ada0
 - `make installkernel KERNCONF=WORKSTATION`
 
 
+### Set Locale
+
+- For global set open `/etc/login.conf` and add 2 lines to **default** block, like so:
+```
+default:\
+        ...
+        :charset=UTF-8:\
+        :lang=en_US.UTF-8:
+```
+- For per-user basis, add same 2 lines to **me** block
+
+
 ### Install Dev Tools
 
 - **IDE** `cd /usr/ports/editors/vim && make install clean`
@@ -107,3 +119,4 @@ allscreens_flags="MODE_280"
 ### Install Utilities
 
 - **Opera** `cd /usr/ports/www/opera && make install clean`
+- **xClip** `cd /usr/ports/x11/xclip && make install clean`
