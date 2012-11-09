@@ -88,3 +88,11 @@ allscreens_flags="MODE_280"
 
 - Install **Xfce** `cd /usr/ports/x11-wm/xfce4 && make install clean`
 - Set **Xfce** by default `echo "/usr/local/bin/startxfce4" > ~/.xinitrc` for current user only or `echo "/usr/local/bin/startxfce4" > /usr/local/lib/X11/xinit/xinitrc` for all users (run `find / -name xinitrc` to find correct path for global xinitrc file)
+
+
+### Dev Tools
+
+- **IDE** `cd /usr/ports/editors/vim && make install clean`
+- **Version Control System** `cd /usr/ports/devel/git && make install clean`
+- **Shell** `cd /usr/ports/shells/zsh && make install clean`
+- **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
