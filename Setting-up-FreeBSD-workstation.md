@@ -87,9 +87,9 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - Create `/mnt/shared` where we will mount our partition
 - Run `fdisk` and find desired partition number (let's say it's **3**)
 - Edit `/etc/fstab` and add following line:
-~~~
+```
 /dev/ada0s3     /mnt/shared     msdosfs rw      0       0
-~~~
+```
 - After reboot you should be able to Read/Write to the contents of /mnt/shared and access it from other OS on same machine
 
 
