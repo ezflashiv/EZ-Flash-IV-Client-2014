@@ -139,5 +139,5 @@ allscreens_flags="MODE_280"
 
 ### Install Utilities
 
-- **Opera** `cd /usr/ports/www/opera && make install clean`
+- **Opera** download latest version from [opera.com](http://opera.com), unpack and run `./install` script
 - **xClip** `cd /usr/ports/x11/xclip && make install clean`
