@@ -101,6 +101,12 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
 
 
+### Misc
+
+- Install CLI [dotfiles](https://github.com/sergeylukin/dotfiles) bundle
+- Download nice system dump [script](https://github.com/KittyKatt/screenFetch) to **~/bin**
+
+
 ## GUI
 
 
