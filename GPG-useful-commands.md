@@ -1,5 +1,6 @@
 `gpg --gen-key` - generate new private/public keys pair  
-`gpg --list-keys` - see all keys in your ring
+`gpg --list-keys` - list all public keys in your ring
+`gpg --list-secret-keys` - list all private keys in your ring
 
 `gpg --import public-key.asc` - import public key to your ring  
 `gpg --export -a "Name" > public-key.asc` - export public key to a file
