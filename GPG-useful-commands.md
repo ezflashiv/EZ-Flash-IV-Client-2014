@@ -11,7 +11,8 @@
 `gpg --delete-key "Name"` - remove public key from your ring  
 `gpg --delete-secret-key "Name"` - remove private key from your ring  
 
-`gpg --encrypt --recipient "Name" ./passwords` - encrypt file with the key  
+`gpg -e -u "Sender Name" -r "Recipient Name" ./passwords` - encrypt file with the key  
+
 `gpg --output ./passwords --decrypt ./passwords.gpg` - decrypt file
 
 `gpg --armor --detach-sign ./file` - create a detached signature for a file  
