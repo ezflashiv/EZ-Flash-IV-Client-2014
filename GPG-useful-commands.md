@@ -11,6 +11,8 @@
 `gpg --delete-key "Name"` - remove public key from your ring  
 `gpg --delete-secret-key "Name"` - remove private key from your ring  
 
+`gpg --edit-key "Name"` - edit key's attributes
+
 `gpg -e -u "Sender Name" -r "Recipient Name" ./passwords` - encrypt file with the key  
 
 `gpg --output ./passwords --decrypt ./passwords.gpg` - decrypt file
