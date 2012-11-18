@@ -101,6 +101,8 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
 - **Headless Webkit** `cd /usr/ports/lang/phantomjs && make install clean`
 - **NodeJS** `cd /usr/ports/www/node && make install clean`
+- **optipng** `cd /usr/ports/graphics/optipng && make install clean`
+- Make sure you have **jpegtran** installed as well
 
 ### Install Single-User Dev Tools
 
