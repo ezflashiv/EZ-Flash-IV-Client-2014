@@ -111,7 +111,7 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 ```
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.  
 ```
-- Install **Ruby** `rvm install ruby 1.9.3`
+- Install **Ruby** `rvm install 1.9.3`
 - **Compass** `gem install compass`
 - **Ruby On Rails** `gem install rails`
 
