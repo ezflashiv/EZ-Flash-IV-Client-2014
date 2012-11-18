@@ -99,12 +99,14 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Version Control System** `cd /usr/ports/devel/git && make install clean`
 - **Shell** `cd /usr/ports/shells/zsh && make install clean`
 - **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
+- **Headless Webkit** `cd /usr/ports/lang/phantomjs && make install clean`
+- **NodeJS** `cd /usr/ports/www/node && make install clean`
 
 
 ### Misc
 
 - Install CLI [dotfiles](https://github.com/sergeylukin/dotfiles) bundle
-- Download nice system dump [script](https://github.com/KittyKatt/screenFetch) to **~/bin**
+- Download nice system dump [script](https://github.com/KittyKatt/screenFetch) to **~/bin** or install **bsdinfo** `cd /usr/ports/sysutils/bsdinfo && make install clean`
 
 
 ## GUI
