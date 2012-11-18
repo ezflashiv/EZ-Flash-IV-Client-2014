@@ -104,13 +104,16 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 
 ### Install Single-User Dev Tools
 
-#### Ruby
+- Login as *root*, install **libyaml** `cd /usr/ports/textproc/libyaml && make install clean`
+- Login as normal user you want to have dev tools and continue
 - Install **RVM** `\curl -L https://get.rvm.io | bash -s stable`, `source ~/.rvm/scripts/rvm`
 - Make sure you have following in your shell's RC file (.bashrc, .zshrc or any other):
 ```
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.  
 ```
 - Install **Ruby** `rvm install ruby 1.9.3`
+- **Compass** `gem install compass`
+- **Ruby On Rails** `gem install rails`
 
 ### Misc
 
