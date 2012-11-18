@@ -93,7 +93,7 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - After reboot you should be able to Read/Write to the contents of /mnt/shared and access it from other OS on same machine
 
 
-### Install Dev Tools
+### Install Multi-User Dev Tools
 
 - **IDE** `cd /usr/ports/editors/vim && make install clean`
 - **Version Control System** `cd /usr/ports/devel/git && make install clean`
@@ -102,6 +102,15 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Headless Webkit** `cd /usr/ports/lang/phantomjs && make install clean`
 - **NodeJS** `cd /usr/ports/www/node && make install clean`
 
+### Install Single-User Dev Tools
+
+#### Ruby
+- Install **RVM** `\curl -L https://get.rvm.io | bash -s stable`, `source ~/.rvm/scripts/rvm`
+- Make sure you have following in your shell's RC file (.bashrc, .zshrc or any other):
+```
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.  
+```
+- Install **Ruby** `rvm install ruby 1.9.3`
 
 ### Misc
 
