@@ -101,9 +101,11 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
 - **Headless Webkit** `cd /usr/ports/lang/phantomjs && make install clean`
 - **NodeJS** `cd /usr/ports/www/node && make install clean`
+- **Npm** `cd /usr/ports/www/npm && make install clean`
 - **libyaml** `cd /usr/ports/textproc/libyaml && make install clean`
 - **optipng** `cd /usr/ports/graphics/optipng && make install clean`
 - Make sure you have **jpegtran** installed as well
+- **Yeoman** `npm install -g yeoman` - install this one after single-user installations are finished
 
 ### Install Single-User Dev Tools
 
