@@ -101,13 +101,12 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Terminal Multiplexer** `cd /usr/ports/sysutils/tmux && make install clean`
 - **Headless Webkit** `cd /usr/ports/lang/phantomjs && make install clean`
 - **NodeJS** `cd /usr/ports/www/node && make install clean`
+- **libyaml** `cd /usr/ports/textproc/libyaml && make install clean`
 - **optipng** `cd /usr/ports/graphics/optipng && make install clean`
 - Make sure you have **jpegtran** installed as well
 
 ### Install Single-User Dev Tools
 
-- Login as *root*, install **libyaml** `cd /usr/ports/textproc/libyaml && make install clean`
-- Login as normal user you want to have dev tools and continue
 - Install **RVM** `\curl -L https://get.rvm.io | bash -s stable`, `source ~/.rvm/scripts/rvm`
 - Make sure you have following in your shell's RC file (.bashrc, .zshrc or any other):
 ```
