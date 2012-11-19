@@ -102,10 +102,11 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **Headless Webkit** `cd /usr/ports/lang/phantomjs && make install clean`
 - **NodeJS** `cd /usr/ports/www/node && make install clean`
 - **Npm** `cd /usr/ports/www/npm && make install clean`
-- **libyaml** `cd /usr/ports/textproc/libyaml && make install clean`
+- **libyaml** `cd /usr/ports/textproc/libyaml && make install clean` - required for ruby
 - **optipng** `cd /usr/ports/graphics/optipng && make install clean`
 - Make sure you have **jpegtran** installed as well
 - **Yeoman** `npm install -g yeoman` - install this one after single-user installations are finished
+- **Google Chrome** `cd /usr/ports/www/chromium && make install clean` - this will take some time, but it worth it
 
 ### Install Single-User Dev Tools
 
