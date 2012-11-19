@@ -39,10 +39,11 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `zf5j` - fold current line and 5 more lines below it
 * `zo` - expand fold
 * `zc` - collapse fold
+* `gq$` - break current line into multiple lines according to `set formatoptions` settings
 
 #### Visual mode
 
-* `gq` - Break selected line into multiple lines
+* `gq` - Break selected line into multiple lines according to `set formatoptions` settings
 * `gu` - lowercase line
 * `gU` - uppercase line
 * `o` - move the cursor the the opposite end of selection (very useful if you want to add/remove selection from opposite side)
