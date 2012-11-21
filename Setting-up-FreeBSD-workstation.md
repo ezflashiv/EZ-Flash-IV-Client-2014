@@ -169,4 +169,4 @@ OR
 
 - **Opera** download latest version from [opera.com](http://opera.com), unpack and run `./install` script
 - **xClip** `cd /usr/ports/x11/xclip && make install clean`
-- **Gnupg** `cd /usr/ports/security/gnupg && make install clean`
+- **Gnupg** `cd /usr/ports/security/gnupg && make install clean` (mark **Pinentry** checkbox)
