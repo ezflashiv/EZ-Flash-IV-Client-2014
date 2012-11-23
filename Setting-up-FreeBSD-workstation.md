@@ -167,6 +167,7 @@ OR
 
 ### Install Utilities
 
-- **Opera** download latest version from [opera.com](http://opera.com), unpack and run `./install` script
-- **xClip** `cd /usr/ports/x11/xclip && make install clean`
-- **Gnupg** `cd /usr/ports/security/gnupg && make install clean` (mark **Pinentry** checkbox)
+- **Opera** (Web browser) download latest version from [opera.com](http://opera.com), unpack and run `./install` script
+- **xClip** (Xorg Buffer) `cd /usr/ports/x11/xclip && make install clean`
+- **Gnupg** (Encryption & Signing) `cd /usr/ports/security/gnupg && make install clean` (mark **Pinentry** checkbox)
+- **MOC** (Music on Console) `cd /usr/ports/audio/moc && make install clean` (run as `mocp`)
