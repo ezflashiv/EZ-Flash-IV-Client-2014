@@ -8,11 +8,11 @@
 - CD to folder with downloaded scrobbler and execute `easy_install .`
 - Paste contents of [this file](https://github.com/SebastianZaha/cplay_scrobbler/blob/master/cplay_scrobbler.py) to `~/.cplayrc` and modify credentials accordingly. Also change this line:
 ```
-scrobbler.login(USERNAME, PASSWORD, True)
+scrobbler.login(USERNAME, PASSWORD, ('cpl', '1.0'))
 ```
 to
 ```
-scrobbler.login(USERNAME, PASSWORD, True, ('cpl', '1.0'), 'http://turtle.libre.fm/')
+scrobbler.login(USERNAME, PASSWORD, ('cpl', '1.0'), 'http://turtle.libre.fm/')
 ```
 - Now when playing music with CPLay your libre.fm account will track that
 
