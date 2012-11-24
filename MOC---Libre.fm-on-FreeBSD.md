@@ -1,4 +1,4 @@
-## Installation Libre.fm support in FreeBSD
+## Installation
 
 - Download [lastfmsubmitd](http://hg.dereckson.be/freebsd-ports/src/505be8423e97/audio/lastfmsubmitd?at=default) port to `/usr/ports/audio/lastfmsubmitd`
 - Execute following script:
