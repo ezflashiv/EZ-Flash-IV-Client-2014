@@ -122,7 +122,10 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 ### Misc
 
 - Download nice system dump [script](https://github.com/KittyKatt/screenFetch) to **~/bin** or install **bsdinfo** `cd /usr/ports/sysutils/bsdinfo && make install clean`
+- **mpg321** (Audio playback) `cd /usr/ports/audio/mpg321 && make install clean`
+- **cplay** (Music CLI manager) `cd /usr/ports/audio/cplay && make install clean`
 - **MOC** (Music on Console) `cd /usr/ports/audio/moc && make install clean` (run as `mocp`)
+- **MPlayer** (Video playback) `cd /usr/ports/multimedia/mplayer && make install clean`
 - Install CLI [dotfiles](https://github.com/sergeylukin/dotfiles) bundle
 
 ## GUI
