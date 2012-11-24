@@ -127,7 +127,7 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **mpg321** (Audio playback) `cd /usr/ports/audio/mpg321 && make install clean`
 - **cplay** (Music CLI manager) `cd /usr/ports/audio/cplay && make install clean`
 - **MOC** (Music on Console) `cd /usr/ports/audio/moc && make install clean` (run as `mocp`)
-- **MPlayer** (Video playback) `cd /usr/ports/multimedia/mplayer && make install clean`
+- **Gnupg** (Encryption & Signing) `cd /usr/ports/security/gnupg && make install clean` (mark **Pinentry** checkbox)
 - Install CLI [dotfiles](https://github.com/sergeylukin/dotfiles) bundle
 
 ## GUI
@@ -174,4 +174,5 @@ OR
 
 - **Opera** (Web browser) download latest version from [opera.com](http://opera.com), unpack and run `./install` script
 - **xClip** (Xorg Buffer) `cd /usr/ports/x11/xclip && make install clean`
-- **Gnupg** (Encryption & Signing) `cd /usr/ports/security/gnupg && make install clean` (mark **Pinentry** checkbox)
+- **feh** (image viewer) `cd /usr/ports/graphics/feh && make install clean`
+- **MPlayer** (Video playback) `cd /usr/ports/multimedia/mplayer && make install clean`
