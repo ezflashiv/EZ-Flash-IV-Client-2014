@@ -1,3 +1,11 @@
+## Install python scrobbler.py
+
+- Verify you Python version (installed if you don't have one), download according *.egg file (for example **setuptools-0.6c11-py2.7.egg** in my case) from [http://pypi.python.org/pypi/setuptools#files](http://pypi.python.org/pypi/setuptools#files) and run as *root* `sh setuptools-0.6c11-py2.7.egg`
+- Apply this [patch](http://sourceforge.net/tracker/?func=detail&aid=2789702&group_id=207796&atid=1003125)
+- Paste contents of [this file](https://github.com/SebastianZaha/cplay_scrobbler/blob/master/cplay_scrobbler.py) to `~/.cplayrc` and modify credentials accordingly. Also change login command call to `scrobbler.login(USERNAME, PASSWORD, True, ('cpl', '1.0'), 'http://turtle.libre.fm/')`
+
+
+
 ## Installation
 
 - Download [lastfmsubmitd](http://hg.dereckson.be/freebsd-ports/src/505be8423e97/audio/lastfmsubmitd?at=default) port to `/usr/ports/audio/lastfmsubmitd`
