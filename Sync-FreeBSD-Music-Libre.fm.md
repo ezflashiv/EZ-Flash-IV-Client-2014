@@ -1,5 +1,7 @@
-## Install python scrobbler.py
+## Using CPlay
 
+- Install Mpg321 (audio playback) `cd /usr/ports/audio/mpg321 && make install clean`
+- Install Cplay (music front-end) `cd /usr/ports/audio/cplay && make install clean`
 - Verify you Python version (installed if you don't have one), download according *.egg file (for example **setuptools-0.6c11-py2.7.egg** in my case) from [http://pypi.python.org/pypi/setuptools#files](http://pypi.python.org/pypi/setuptools#files) and run as *root* `sh setuptools-0.6c11-py2.7.egg`
 - Download [scrobbler](http://sourceforge.net/projects/scrobbler/)
 - Apply this [patch](http://sourceforge.net/tracker/?func=detail&aid=2789702&group_id=207796&atid=1003125)
@@ -12,11 +14,14 @@ to
 ```
 scrobbler.login(USERNAME, PASSWORD, True, ('cpl', '1.0'), 'http://turtle.libre.fm/')
 ```
+- Now when playing music with CPLay your libre.fm account will track that
 
 
+## MOC
 
-## Installation
+I would not recommend this method:) After I set up CPLay I unistalled MOC and all described in this section.
 
+- Install MOC `cd /usr/ports/audio/moc && make install clean`
 - Download [lastfmsubmitd](http://hg.dereckson.be/freebsd-ports/src/505be8423e97/audio/lastfmsubmitd?at=default) port to `/usr/ports/audio/lastfmsubmitd`
 - Execute following script:
 ```
