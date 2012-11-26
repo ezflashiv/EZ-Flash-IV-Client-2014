@@ -29,7 +29,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 - Edit configuration file `vim /usr/local/etc/icecast.xml`:
 
     - Change values of `<admin-password>`, `<source-password>` and `<relay-password>`
-    - In `<listen-socket>` group specify IP and Port you want to stream from
+    - In `<listen-socket>` group specify *IP* and *PORT* you want to stream from
     - In `<security>` group set both `<user>` and `<group>` to **icecast**
     - Set `<logdir>` to `/var/log/icecast`
     - Make sure all files paths exist and are correct - **!important**
@@ -37,7 +37,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 
 - Start daemon `/usr/local/etc/rc.d/icecast2 start`
 
-- Test by browsing to `http://YOUR_IP:YOUR_PORT`
+- Test by browsing to `http://*IP*:*PORT*`
 
 
 
