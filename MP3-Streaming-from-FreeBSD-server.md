@@ -77,7 +77,7 @@ def ices_get_next ():
 
 ### Tips
 
-- In order to move to the next, first find out *ices0* PID: `ps aux | grep ices0` and send `SIGUSR1` signal to it:
+- In order to play next track immediately, first find out *ices0* PID: `ps aux | grep ices0` and send `SIGUSR1` signal to it:
 ```
 kill -USR1 PID
 ```
