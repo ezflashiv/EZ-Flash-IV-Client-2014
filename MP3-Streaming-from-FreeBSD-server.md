@@ -15,10 +15,10 @@ pw groupadd icecast && pw useradd icecast -g icecast
 
 - Create required directories and files:
 ```
-mkdir -p /usr/local/var/log/icecast
-touch /usr/local/var/log/icecast/access.log
-touch /usr/local/var/log/icecast/error.log
-chown -R icecast:icecast /usr/local/var/log/icecast
+mkdir -p /var/log/icecast
+touch /log/icecast/access.log
+touch /var/log/icecast/error.log
+chown -R icecast:icecast /var/log/icecast
 ```
 
 - Copy sample configuration file
@@ -31,6 +31,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
     - Change values of `<admin-password>`, `<source-password>` and `<relay-password>`
     - In `<listen-socket>` group specify IP and Port you want to stream from
     - In `<security>` group set both `<user>` and `<group>` to **icecast**
+    - Set `<logdir>` to `/var/log/icecast`
     - Make sure all files paths exist and are correct - **!important**
 
 
