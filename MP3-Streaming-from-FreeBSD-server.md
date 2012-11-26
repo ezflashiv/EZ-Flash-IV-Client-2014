@@ -56,7 +56,6 @@ echo "ices0_enable=YES" >> /etc/rc.conf
 ```
 
 - Edit configuration file `vim /usr/local/etc/ices.conf`:
-
     - In `<Server>` specify credentials of **Icecast2** server (including `<source-password>` as the value of `<Password>`)
     - In `<Type>` field type `python` in order to use Python script to manage streaming flow
 
