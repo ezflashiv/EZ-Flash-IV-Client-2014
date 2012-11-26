@@ -37,7 +37,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 
 - Start daemon `/usr/local/etc/rc.d/icecast2 start`
 
-- Test by browsing to `http://IP:PORT`
+- Verify that Icecast2 is working by browsing to `http://IP:PORT`
 
 
 
