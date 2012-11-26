@@ -16,7 +16,7 @@ pw groupadd icecast && pw useradd icecast -g icecast
 - Create required directories and files:
 ```
 mkdir -p /var/log/icecast
-touch /log/icecast/access.log
+touch /var/log/icecast/access.log
 touch /var/log/icecast/error.log
 chown -R icecast:icecast /var/log/icecast
 ```
