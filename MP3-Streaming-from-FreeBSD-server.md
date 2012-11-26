@@ -75,6 +75,8 @@ def ices_get_next ():
 ...
 ```
 
+- Finally, launch your stream: `ices0`
+
 ### Tips
 
 - In order to play next track immediately, first find out *ices0* PID: `ps aux | grep ices0` and send `SIGUSR1` signal to it:
