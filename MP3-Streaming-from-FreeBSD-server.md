@@ -65,14 +65,19 @@ echo "ices0_enable=YES" >> /etc/rc.conf
 cd /usr/local/etc/modules && cp ices.py.dist ices.py
 ```
 
-- Edit Python script according to what you need - full freedom of fantazy. As a very starting point you can create a file `/tmp/next_song` with full path for a MP3 file and edit `/usr/local/etc/modules/ices.py` to read it's content every time before it changes the song:
+- Edit Python script according to what you need - full freedom of fantasy. As a very starting point you can play randomly chosen tracks from `/home/icecast/music/` directory. For that edit `/usr/local/etc/modules/ices.py` like so:
 ```
+from string import *
+import sys, os, random
 ...
 def ices_get_next ():
-    f = open('/tmp/next_song','r')
-    song_path = f.read().strip()
-    f.close()
-    return song_path
-
+          return "/home/icecast/music/" + random.choice(os.listdir("/home/icecast/music/"))
 ...
+```
+
+### Tips
+
+- In order to move to the next, first find out *ices0* PID: `ps aux | grep ices0` and send `SIGUSR1` signal to it:
+```
+kill -USR1 PID
 ```
