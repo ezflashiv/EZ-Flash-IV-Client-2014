@@ -1,10 +1,10 @@
-### Streaming Server (Icecast2)
+### Streaming Server (icecast2)
 
 - Install `cd /usr/ports/audio/icecast2 && make install clean`
 
 - Start service on system boot:
 ```
-echo "# Icecast2 streaming Server" >> /etc/rc.conf
+echo "# icecast2 streaming Server" >> /etc/rc.conf
 echo "icecast_enable=YES" >> /etc/rc.conf
 ```
 
@@ -37,7 +37,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 
 - Start daemon `/usr/local/etc/rc.d/icecast2 start`
 
-- Verify that Icecast2 is working by browsing to `http://IP:PORT`
+- Verify that icecast2 is working by browsing to `http://IP:PORT`
 
 
 
@@ -57,7 +57,7 @@ echo "ices0_enable=YES" >> /etc/rc.conf
 ```
 
 - Edit configuration file `vim /usr/local/etc/ices.conf`:
-    - In `<Server>` specify credentials of **Icecast2** server (including `<source-password>` as the value of `<Password>`)
+    - In `<Server>` specify credentials of **icecast2** server (including `<source-password>` as the value of `<Password>` from icecast2 configuration file)
     - In `<Type>` field type `python` in order to use Python script to manage streaming flow
 
 - Copy sample Python script
