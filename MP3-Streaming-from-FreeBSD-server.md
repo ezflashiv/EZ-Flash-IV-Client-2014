@@ -75,7 +75,10 @@ def ices_get_next ():
 ...
 ```
 
-- Finally, launch your stream: `ices0`
+- Finally, launch your stream:
+```
+ices0
+```
 
 ### Tips
 
