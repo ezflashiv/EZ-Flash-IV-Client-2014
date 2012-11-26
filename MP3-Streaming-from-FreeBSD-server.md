@@ -42,7 +42,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 
 ### Install Source client for broadcasting (Ices0)
 
-- Install `cd /usr/ports/audio/ices0 && make install clean`
+- Install `cd /usr/ports/audio/ices0 && make install clean` - Select all options to enjoy the full stack of possibilities
 
 - Copy sample configuration file:
 ```
