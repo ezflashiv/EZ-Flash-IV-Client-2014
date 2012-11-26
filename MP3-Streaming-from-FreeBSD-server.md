@@ -49,6 +49,12 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 cd /usr/local/etc && cp ices.conf.dist ices.conf
 ```
 
+- Start service on system boot:
+```
+echo "# Ices0 - mp3 streaming" >> /etc/rc.conf
+echo "ices0_enable=YES" >> /etc/rc.conf
+```
+
 - Edit configuration file `vim /usr/local/etc/ices.conf`:
 
     - In `<Server>` specify credentials of **Icecast2** server (including `<source-password>` as the value of `<Password>`)
