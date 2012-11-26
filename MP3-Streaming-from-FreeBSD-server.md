@@ -8,9 +8,9 @@ echo "# Icecast2 streaming Server" >> /etc/rc.conf
 echo "icecast_enable=YES" >> /etc/rc.conf
 ```
 
-- Add Group and User to run the server
+- Add Group and User with home directory to run the server and manage streams
 ```
-pw groupadd icecast && pw useradd icecast -g icecast
+pw groupadd icecast && pw useradd icecast -g icecast -m
 ```
 
 - Create required directories and files:
