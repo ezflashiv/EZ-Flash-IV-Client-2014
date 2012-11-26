@@ -87,5 +87,5 @@ ices0
 kill -USR1 PID
 ```
 
-- In order to serve multiple streams you don't have to modify icecast2 configuration anyhow. You need to create additional ices0 configuration file, probably separate Python (or Perl) script, and you can launch it with `ices0 -c /path/to/my/config/file`. From there you can listen to your new station.  
+- In order to serve multiple streams you don't need to modify icecast2 configuration (unless you need to stream from different port). You need to create additional ices0 configuration file, probably separate Python (or Perl) script, and you can launch it with `ices0 -c /path/to/my/config/file`. From there you can listen to your new station.  
 In order to keep things in structure I created `/home/icecast/stations` directory with sub-directories that contain configuration file for each station and a symlink to python script (for example for station `ices` I would do `ln -s /usr/local/etc/modules/ices.py /home/icecast/stations/ices/ices.py`). Additionally I modified `/usr/local/etc/rc.d/ices0` script to require configuration file from `/home/icecast/stations/ices/ices.conf`. Also I changed ownership of all those files to `icecast:icecast` so that all streaming thing could be managed by `icecast` user.
