@@ -92,4 +92,4 @@ In order to keep things in structure I created `/home/icecast/stations` director
 
 - I recommend enabling `<Reencode>` in ices0 if you are not sure whether you need it or not, setting [Bitrate](http://en.wikipedia.org/wiki/Bit_rate) to 96kb/s at least and [Samplerate](http://en.wikipedia.org/wiki/Sampling_rate) to 44100 (make sure it is multiple of 11025Hz to ensure the encoding is compatible with most media players)
 
-- For decrease latency as much as possible (difference in time between when the source plays a clip and the listener hears a clip) I set `<burst-on-connect>` and `<burst-size>` to 0 in icecast2 configuration. If latency is not an issue though, I suggest increasing these values.
+- In order to decrease latency as much as possible (difference in time between when the source plays a clip and the listener hears a clip) I set `<burst-on-connect>` and `<burst-size>` to 0 in icecast2 configuration. If latency is not an issue though, I suggest increasing these values.
