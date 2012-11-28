@@ -1,3 +1,38 @@
+This setup assumes you need to serve one or more channels with single/multiple streams in each.
+
+### User
+
+- Add User with home directory that is going to run services and manage configurations
+```
+pw groupadd icecast && pw useradd icecast -g icecast -m
+```
+
+- Define following file structure:
+```
+/home/icecast/
+├─┬ channels/
+│ ├─┬ 8000/
+│ │ ├── icecast.xml
+│ │ ├── rock.conf
+│ │ ├── rock.py
+│ │ ├── pop.conf
+│ │ └── pop.py
+│ └─┬ 9000/
+│   ├── icecast.xml
+│   ├── chill.conf
+│   └── chill.py
+└── music/
+```
+
+In this example we assume serving 2 channels (ports `:8000` and `:9000` with 2 streams (rock and pop) in the first one and one stream (chill) in the second). We also assume that all our audio files reside in `music` directory, just for example. Let's create the directories first (file will be created on the way during this doc):
+
+```
+cd /home/icecast
+mkdir -p channels/8000 channels/9000
+mkdir music
+chown -R icecast:icecast /home/icecast
+```
+
 ### Streaming Server (icecast2)
 
 - Install `cd /usr/ports/audio/icecast2 && make install clean`
@@ -8,11 +43,6 @@ echo "# icecast2 streaming Server" >> /etc/rc.conf
 echo "icecast_enable=YES" >> /etc/rc.conf
 ```
 
-- Add Group and User with home directory to run the server and manage streams
-```
-pw groupadd icecast && pw useradd icecast -g icecast -m
-```
-
 - Create required directories and files:
 ```
 mkdir -p /var/log/icecast
@@ -21,12 +51,12 @@ touch /var/log/icecast/error.log
 chown -R icecast:icecast /var/log/icecast
 ```
 
-- Copy sample configuration file
+- Copy sample configuration file to our channels
 ```
-cd /usr/local/etc && cp icecast.xml.sample icecast.xml
+cd /home/icecast/channels && cat /usr/local/etc/icecast.xml.sample | tee 8000/icecast.xml 9000/icecast.xml > /dev/null 2>&1
 ```
 
-- Edit configuration file `vim /usr/local/etc/icecast.xml`:
+- Edit configuration files `/home/icecast/channels/8000/icecast.xml` and `/home/icecast/channels/9000/icecast.xml`:
 
     - Change values of `<admin-password>`, `<source-password>` and `<relay-password>`
     - In `<listen-socket>` group specify *IP* and *PORT* you want to stream from
@@ -37,7 +67,7 @@ cd /usr/local/etc && cp icecast.xml.sample icecast.xml
 
 - Start daemon `/usr/local/etc/rc.d/icecast2 start`
 
-- Verify that icecast2 is working by browsing to `http://IP:PORT`
+- Verify that icecast2 is working by browsing to `http://IP:8000` and `http://IP:9000`
 
 
 
