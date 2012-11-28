@@ -1,13 +1,13 @@
 This setup assumes you need to serve one or more channels with single/multiple streams in each.
 
-### User
+### User & Group
 
-- Add User with home directory that is going to run services and manage configurations
+Add User with home directory that is going to run services and manage configurations
 ```
 pw groupadd icecast && pw useradd icecast -g icecast -m
 ```
 
-- Define following file structure:
+Define following file structure:
 ```
 /home/icecast/
 ├─┬ channels/
