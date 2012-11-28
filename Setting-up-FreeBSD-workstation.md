@@ -66,7 +66,7 @@ boot0cfg -m 0x3 /dev/ada0
 - `make installkernel KERNCONF=WORKSTATION`
 
 
-### Configurations
+### System settings
 
 - In order to clean `/tmp` contents on boot, add following to `/etc/rc.conf`:
 ```
