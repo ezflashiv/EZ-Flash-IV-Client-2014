@@ -66,6 +66,14 @@ boot0cfg -m 0x3 /dev/ada0
 - `make installkernel KERNCONF=WORKSTATION`
 
 
+### Configurations
+
+- In order to clean `/tmp` contents on boot, add following to `/etc/rc.conf`:
+```
+clear_tmp_enable="YES"
+```
+
+
 ### UTF-8
 
 - Check current locale by running `locale`
