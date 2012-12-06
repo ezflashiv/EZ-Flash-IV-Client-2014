@@ -1,4 +1,5 @@
-#### Copy/Paste (taken from http://jasonwryan.com/blog/2011/06/07/copy-and-paste-in-tmux/)
+#### Copy/Paste
+taken from http://jasonwryan.com/blog/2011/06/07/copy-and-paste-in-tmux/
 
 - `Ctrl+a ESC` - enter copy mode
 - `v` - activate highlighting
