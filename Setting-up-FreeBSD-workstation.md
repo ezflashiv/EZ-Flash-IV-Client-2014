@@ -72,7 +72,20 @@ boot0cfg -m 0x3 /dev/ada0
 ```
 clear_tmp_enable="YES"
 ```
-
+- Change boot menu ASCII logo `touch /boot/loader.conf` and add (see `/boot/beastie.4th` for available values):
+```
+loader_logo="beastie"
+```
+- Change welcome message for every user login in `/etc/motd`, for example:
+```
+cd /usr/ports/misc/figlet && make install distclean
+figlet w00t
+           ___   ___  _
+__      __/ _ \ / _ \| |_
+\ \ /\ / / | | | | | | __|
+ \ V  V /| |_| | |_| | |_
+  \_/\_/  \___/ \___/ \__|
+```
 
 ### UTF-8
 
