@@ -101,6 +101,21 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - After reboot you should be able to Read/Write to the contents of /mnt/shared and access it from other OS on same machine
 
 
+### SSH
+
+- Create file for logs `touch /var/log/sshd.log`
+- Add following to `/etc/syslog.conf`:
+```
+!sshd
+*.*                                             /var/log/sshd.log
+```
+- Make sure to have these lines in `/etc/ssh/sshd_config` (adjust **LogLevel** accordingly):
+```
+SyslogFacility AUTH
+LogLevel DEBUG3
+```
+
+
 ### Install Multi-User Dev Tools
 
 - **IDE** `cd /usr/ports/editors/vim && make install clean`
