@@ -136,6 +136,7 @@ Assuming you have, for example FAT32 partition to share files between Windows an
 - **cplay** (Music CLI manager) `cd /usr/ports/audio/cplay && make install clean`
 - **eyeD3** (read & edit MP3 ID3 tags) `easy_install eyeD3` Requires Python
 - **Gnupg** (Encryption & Signing) `cd /usr/ports/security/gnupg && make install clean` (mark **Pinentry** checkbox)
+- **sudo** (privileges tool) `cd /usr/ports/security/sudo && make install clean`
 - Install CLI [dotfiles](https://github.com/sergeylukin/dotfiles) bundle
 
 ## GUI
