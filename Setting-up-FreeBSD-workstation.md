@@ -215,3 +215,4 @@ OR
 - **xClip** (Xorg Buffer) `cd /usr/ports/x11/xclip && make install clean`
 - **feh** (image viewer) `cd /usr/ports/graphics/feh && make install clean`
 - **MPlayer** (Video playback) `cd /usr/ports/multimedia/mplayer && make install clean`
+- **ffmpg** (Video converter) `cd /usr/ports/multimedia/ffmpeg && make install clean`
