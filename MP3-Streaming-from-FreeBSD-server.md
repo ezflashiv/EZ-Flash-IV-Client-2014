@@ -97,8 +97,7 @@ cd /usr/local/etc/modules && cp ices.py.dist ices.py
 
 - Edit Python script according to what you need - full freedom of fantasy. As a very starting point you can play randomly chosen tracks from `/home/icecast/music/` directory. For that edit `/usr/local/etc/modules/ices.py` like so:
 ```
-from string import *
-import sys, os, random
+import os, random
 ...
 def ices_get_next ():
           return "/home/icecast/music/" + random.choice(os.listdir("/home/icecast/music/"))
