@@ -11,3 +11,7 @@ Frequently used keystrokes/commands.
 #### Channels
 
 * `/join #html5` - connect to a channel on connected network
+
+#### Windows 
+
+* `Alt-arrow keys` - switch between windows
