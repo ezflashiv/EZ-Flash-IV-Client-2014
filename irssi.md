@@ -14,10 +14,12 @@ Frequently used keystrokes/commands.
 #### Windows 
 
 * `Alt-<arrow key>` - switch between windows
+* `/window close` - close current window
 
 #### Chatting
 
 * `/query <nick>` - open private room with someone
+* `/q` - while in private room, closes it
 
 #### Status
 
