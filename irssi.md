@@ -14,4 +14,8 @@ Frequently used keystrokes/commands.
 
 #### Windows 
 
-* `Alt-arrow keys` - switch between windows
+* `Alt-<arrow key>` - switch between windows
+
+#### Chatting
+
+* `/q <nick>` - open private room with someone
