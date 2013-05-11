@@ -4,4 +4,6 @@ Frequently used keystrokes/commands.
 
 #### Networks
 
-* `Ctrl-x` - switch between networks connections
+* `/connect irc.freenode.net` - open new connection to server
+* `/server irc.freenode.net` - disconnect from current connection and connect to specified server
+* `Ctrl-x` - switch between network connections
