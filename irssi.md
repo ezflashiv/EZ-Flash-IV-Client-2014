@@ -1,6 +1,5 @@
 Frequently used keystrokes/commands.
 
-## General
 
 #### Networks
 
@@ -18,4 +17,8 @@ Frequently used keystrokes/commands.
 
 #### Chatting
 
-* `/q <nick>` - open private room with someone
+* `/query <nick>` - open private room with someone
+
+#### Status
+
+* `/alias` - prints aliases to **Status Window** that can be used to enhance UX
