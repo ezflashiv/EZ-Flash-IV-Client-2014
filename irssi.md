@@ -35,3 +35,4 @@ Frequently used keystrokes/commands.
 * `/msg nickserv info <nickname>` - Get info about a nickname, in case you're identified, you'll get more info on yourself including set FLAGS
 * `/msg nickserv set enforce on` - Force one to identify himself in 30 seconds after using current nickname
 * `/msg nickserv set hidemail on` - Keep your email private
+* `/msg nickserv release <nick> <password>` - In cases you get `nick is temporarily unavailable` message, you can release it with this command. For instance, my nick had to be released after I set `enforce` FLAG to `on` and didn't identify myself in 30 seconds next time I took the nick.
