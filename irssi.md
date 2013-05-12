@@ -27,7 +27,7 @@ Frequently used keystrokes/commands.
 * `/alias` - prints aliases to **Status Window** that can be used to enhance UX
 
 
-#### commands specific to Network chat.freenode.net
+#### Commands specific to Network chat.freenode.net
 
 * `/msg nickserv register <password> <email>` - Register current nickname
 * `/msg nickserv identify <nick> <password>` - Login to registered nickname
