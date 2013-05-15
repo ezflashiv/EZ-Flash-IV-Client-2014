@@ -1,0 +1,2 @@
+- `<space>` - pause/play
+- `o` - show/hide video length/played length
