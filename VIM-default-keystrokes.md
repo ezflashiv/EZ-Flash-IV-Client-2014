@@ -37,7 +37,8 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `= =` - auto-indent current line
 * `= G` - auto-indent everything from current line to the end of file
 * `zf5j` - fold current line and 5 more lines below it
-* `zo`, `za` - expand fold
+* `za` - toggle fold
+* `zo` - expand fold
 * `zc` - collapse fold
 * `zR` - unfold all
 * `zM` - fold all
