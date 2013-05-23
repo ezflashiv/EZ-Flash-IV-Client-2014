@@ -1,3 +1,5 @@
+### Ports and Packages
+
 Remove port
 
 ```
@@ -22,3 +24,14 @@ Check if port is installed
 ```
 pkg_info | grep PACKAGE_NAME
 ```
+
+### Archives
+
+Extract `.ISO` image contents
+
+```
+mdconfig -a -t vnode -f myImg.iso # assuming you get "md0" in response
+mount -t cd9660 /dev/md0 /mnt/tmp
+```
+
+..alternatively you could utilize `tar` to do that I guess.
