@@ -41,3 +41,9 @@ mdconfig -d -u 0
 ```
 
 ..alternatively you could utilize `tar` to do that I guess.
+
+Check device's FileSystem (for example device is `md0`):
+
+```
+file -s /dev/md0
+```
