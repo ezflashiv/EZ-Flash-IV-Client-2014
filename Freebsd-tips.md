@@ -34,4 +34,10 @@ mdconfig -a -t vnode -f myImg.iso # assuming you get "md0" in response
 mount -t cd9660 /dev/md0 /mnt/tmp
 ```
 
+Following command will delete created `md0` device
+
+```
+mdconfig -d -u 0
+```
+
 ..alternatively you could utilize `tar` to do that I guess.
