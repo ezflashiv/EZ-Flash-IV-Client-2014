@@ -47,3 +47,9 @@ Check device's FileSystem (for example device is `md0`):
 ```
 file -s /dev/md0
 ```
+
+Convert `CUE` image to `ISO` (will produce myFile.iso which you can mount then)
+
+```
+bchunk file.img file.cue myFile
+```
