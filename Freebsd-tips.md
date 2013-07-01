@@ -61,3 +61,7 @@ bchunk file.img file.cue myFile
 - `mkdir -p /mnt/usb` - create a directory for mounting storage
 - `dmesg` - look for your mounting device name, assuming it's `da0`
 - `mount -t msdosfs /dev/da0 /mnt/usb`
+
+##### Unmount drive
+
+Assuming device is `/dev/da0` and it's mounting directory was `/mnt/usb` you can run `umount /dev/da0` or `umount /mnt/usb`
