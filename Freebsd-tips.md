@@ -65,3 +65,20 @@ bchunk file.img file.cue myFile
 ##### Unmount drive
 
 Assuming device is `/dev/da0` and it's mounting directory was `/mnt/usb` you can run `umount /dev/da0` or `umount /mnt/usb`
+
+
+### System
+
+### Kernel
+
+##### Disable hardware beep
+
+```
+sysctl hw.syscons.bell=0
+```
+
+In order to save this setting permanently add it to configuration file:
+
+```
+echo "hw.syscons.bell=0" >> /etc/sysctl.conf
+```
