@@ -66,6 +66,14 @@ bchunk file.img file.cue myFile
 
 Assuming device is `/dev/da0` and it's mounting directory was `/mnt/usb` you can run `umount /dev/da0` or `umount /mnt/usb`
 
+##### Format USB drive with Fat32
+
+Assuming your USB device is `/dev/da0`
+
+- `dd if=/dev/zero of=/dev/da0 bs=2m` (this zeros the whole drive. if you're worried about wearing it out, just append count=1)
+- `fdisk -i /dev/da0`
+- `newfs_msdos -F32 /dev/da0s1`
+
 
 ### System
 
