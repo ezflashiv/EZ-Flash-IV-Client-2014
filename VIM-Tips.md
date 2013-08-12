@@ -9,3 +9,11 @@ Sometimes you just need to quickly move between tabs and spaces:
 
 - `:set expandtab` disables tabs
 - `:set noexpandtab` enables tabs
+
+### Search and Replace in Visual block
+
+Select block of text and enter command mode (probably by pressing `:`):
+
+```
+:'<,'>s/red/green/g
+```
