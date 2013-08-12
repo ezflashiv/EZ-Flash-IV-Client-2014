@@ -12,7 +12,7 @@ Sometimes you just need to quickly move between tabs and spaces:
 
 ### Search and Replace in Visual block
 
-Select block of text and enter command mode (probably by pressing `:`):
+Select block of text and enter something like this in command mode (probably by pressing `:`):
 
 ```
 :'<,'>s/red/green/g
