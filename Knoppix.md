@@ -31,3 +31,7 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/k
 - create first project: `mkdir -p ~/dev/mobile/workspace-android && cd $_ && cordova create hello com.example.hello HelloWorld`
 
 - try to add `android` platform: `cordova platform add android` If you get an Error regarding missing SDK, then follow the instructions on the screen. Usually it's just a matter of launching `android` (SDK Manager) and installing missing SDK components. If getting SSLPeer error there, then go to `Tools` -> `Options` and select `Force https://...  http://` which will not use SSL to download components
+
+- create an emulator in Android SDK Manager (launch with `android`) by clicking on `Tools` -> `Manage AVDs`
+
+- launch app in emulator - `codrova emulate android` If emulator crashes with error that contains something like `munmap_chunk() invalid pointer` make sure to create localtime file: `ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime` as described in [this StackOverflow question](http://stackoverflow.com/questions/12850006/has-anyone-seen-or-know-the-cause-of-this-error-message-the-android-emulator-wi)
