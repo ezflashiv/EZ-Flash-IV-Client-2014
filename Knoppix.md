@@ -21,7 +21,7 @@ It's extremely important to update the packages repos right after fresh Knoppix 
 ```
 export JAVA_HOME=/home/knoppix/bin/jdk1.7.0_25
 export ANT_HOME=/home/knoppix/bin/apache-ant-1.9.2
-export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/knoppix/dev/mobile/sdks/sdk-android/build-tools:/home/knoppix/dev/mobile/sdks/sdk-android/tools
+export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/knoppix/dev/mobile/sdks/sdk-android/platform-tools:/home/knoppix/dev/mobile/sdks/sdk-android/tools
 ```
 
 - either rerun terminal/relogin or run `source ~/.bashrc` to apply new `PATH`
