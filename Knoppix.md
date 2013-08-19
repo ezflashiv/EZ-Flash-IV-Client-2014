@@ -34,4 +34,15 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/k
 
 - create an emulator in Android SDK Manager (launch with `android`) by clicking on `Tools` -> `Manage AVDs`
 
-- launch app in emulator - `codrova emulate android` If emulator crashes with error that contains something like `munmap_chunk() invalid pointer` make sure to create localtime file every time you login (otherwise it will be overwritten after next reboot), so add following to your `~/.bashrc`: `sudo ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime`
+- launch app in emulator - `codrova emulate android` If emulator crashes with error that contains something like `munmap_chunk() invalid pointer` make sure to create localtime file every time you login (otherwise it will be overwritten after next reboot), so add following to your `~/.bashrc`: `sudo ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime`. Instead of `cordova emulate android` you could run commands manually:
+  - `cordova prepare android`
+  - `cordova compile android`
+  - `./platforms/android/cordova/lib/list-emulator-images to list all available images (let's say there is image called `GalaxyS4` and we want to use that one)
+  - `./platforms/android/cordova/lib/start-emulator GalaxyS4` to launch emulator. Wait some minutes here
+  - `./platforms/android/cordova/lib/install-emulator` to install package in the emulator. You may get an error on auto-launch here, just try to launch an app manually and most likely it will launch if all was correct on your end
+
+- connect real Android device and execute `cordova run android` to prepare, compile and install on device or alternatively you could go run everything manually:
+  - `cordova prepare android` to pack cordova project source files
+  - `cordova compile android` to compile cordova project files using Android SDK into a package
+  - `./platforms/android/cordova/lib/list-devices` to verify device is in the list
+  - `./platforms/android/cordova/lib/install-device` to install app on device. You may get an error on app auto-launch here, just try to launch an app manually and most likely it will launch if all was correct on your end
