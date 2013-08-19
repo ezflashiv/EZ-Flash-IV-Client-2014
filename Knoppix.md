@@ -34,4 +34,4 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/k
 
 - create an emulator in Android SDK Manager (launch with `android`) by clicking on `Tools` -> `Manage AVDs`
 
-- launch app in emulator - `codrova emulate android` If emulator crashes with error that contains something like `munmap_chunk() invalid pointer` make sure to create localtime file: `ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime` as described in [this StackOverflow question](http://stackoverflow.com/questions/12850006/has-anyone-seen-or-know-the-cause-of-this-error-message-the-android-emulator-wi)
+- launch app in emulator - `codrova emulate android` If emulator crashes with error that contains something like `munmap_chunk() invalid pointer` make sure to create localtime file every time you login (otherwise it will be overwritten after next reboot), so add following to your `~/.bashrc`: `sudo ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime`
