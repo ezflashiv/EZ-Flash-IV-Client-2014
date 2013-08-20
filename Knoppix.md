@@ -5,6 +5,7 @@ It's extremely important to update the packages repos right after fresh Knoppix 
 #### Misc utilities
 
 - apt-get install curl
+- apt-get install tree
 - apt-get install unrar
 - apt-get install git
 - apt-get install zsh
