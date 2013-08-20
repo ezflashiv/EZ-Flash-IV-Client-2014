@@ -4,6 +4,7 @@ It's extremely important to update the packages repos right after fresh Knoppix 
 
 #### Misc utilities
 
+- apt-get install curl
 - apt-get install unrar
 - apt-get install git
 - apt-get install zsh
@@ -13,9 +14,12 @@ It's extremely important to update the packages repos right after fresh Knoppix 
   - `sudo dpkg -i google-chrome-*.deb`
   - `sudo apt-get install -f`
 
-#### Developing mobile apps with Cordova (aka PhoneGap)
-
+#### Web Development
 - install NodeJS as described [here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-lmde)
+- Install RVM, Ruby, Rails:
+  - `\curl -L https://get.rvm.io | bash -s stable --ruby --rails`
+
+#### Developing mobile apps with Cordova (aka PhoneGap)
 
 - download [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and extract to `~/bin/jdk*`
 
