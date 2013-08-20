@@ -14,7 +14,7 @@ It's extremely important to update the packages repos right after fresh Knoppix 
   - `sudo dpkg -i google-chrome-*.deb`
   - `sudo apt-get install -f`
 
-#### Web Development
+#### General Development Tools
 - install NodeJS as described [here](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#debian-lmde)
 - Install RVM, Ruby, Rails:
   - `\curl -L https://get.rvm.io | bash -s stable --ruby --rails`
