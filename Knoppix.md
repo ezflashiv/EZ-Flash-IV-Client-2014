@@ -40,6 +40,8 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/k
 
 - install *cordova*: `sudo npm install -g cordova`
 
+- install *phonegap*: `sudo npm install -g phonegap`
+
 - create first project: `mkdir -p ~/code/phonegap && cd $_ && cordova create hello com.example.hello HelloWorld`
 
 - try to add `android` platform: `cordova platform add android` If you get an Error regarding missing SDK, then follow the instructions on the screen. Usually it's just a matter of launching `android` (SDK Manager) and installing missing SDK components. If getting SSLPeer error there, then go to `Tools` -> `Options` and select `Force https://...  http://` which will not use SSL to download components
