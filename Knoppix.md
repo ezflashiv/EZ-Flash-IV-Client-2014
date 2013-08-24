@@ -51,7 +51,7 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:/home/knoppix/bin/eclipse:/home/k
 - launch app in emulator - `codrova emulate android` If emulator crashes with error that contains something like `munmap_chunk() invalid pointer` make sure to create localtime file every time you login (otherwise it will be overwritten after next reboot), so add following to your `~/.bashrc`: `sudo ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime`. Instead of `cordova emulate android` you could run commands manually:
   - `cordova prepare android`
   - `cordova compile android`
-  - `./platforms/android/cordova/lib/list-emulator-images to list all available images (let's say there is image called `GalaxyS4` and we want to use that one)
+  - `./platforms/android/cordova/lib/list-emulator-images` to list all available images (let's say there is image called `GalaxyS4` and we want to use that one)
   - `./platforms/android/cordova/lib/start-emulator GalaxyS4` to launch emulator. Wait some minutes here
   - `./platforms/android/cordova/lib/install-emulator` to install package in the emulator. You may get an error on auto-launch here, just try to launch an app manually in emulator and most likely it will launch if all was correct on your end
 
