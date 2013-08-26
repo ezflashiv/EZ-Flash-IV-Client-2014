@@ -221,3 +221,8 @@ Rules of thumb
 - Keep selectors as short as possible
 - Don't rely on styles order, rather arrange styles so that they don't race for specificity without a reason
 - Prefer percentages for internal layout dimensions
+
+Some quotes:
+------------
+
+- tying css selectors to a specific html structure leads to greater difficulty in changing either html or css [source](http://www.vanseodesign.com/css/block-element-modifier/)
