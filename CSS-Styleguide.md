@@ -1,5 +1,3 @@
-- Don't style with IDs or tags (classes are better)
-
 - Use `CamelCase` class naming pattern for Components, for example:
 
         .Tweet { }
@@ -133,8 +131,7 @@
           </span>
         </nav>
 
-- When providing multiple visual representations, use "multi-class" pattern
-  rather than "single-class" one. So, don't do this:
+- Create composable classes. So, don't do this:
 
         .Button, .Button--green { /* button core styles */ }
         .Button--green { /* styles specific to Green button */ }
@@ -212,3 +209,15 @@ Avoid composing components on the same element.
 Utilities are simple, shared abstractions that components may depend on. Any
 number of utilities may be included in a component's HTML if they help you to
 create the intended outcome.
+
+Rules of thumb
+--------------
+
+- Think in terms of _components_, not pages
+- Think about _types of thing_, not individual things
+- Prefer styling with Classes rather with IDs or Tags
+- Create composable classes
+- Prefer selecting by properly namespaced class rather than building descendent selector
+- Keep selectors as short as possible
+- Don't rely on styles order, rather arrange styles so that they don't race for specificity without a reason
+- Prefer percentages for internal layout dimensions
