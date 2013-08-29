@@ -20,12 +20,12 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `3H` - move cursor to the 3rd line from top
 * `L` - move cursor to the bottom of the screen
 * `3L` - move cursor to the 3rd line from bottom
-* `CTRL-u` - move the screen up by half
-* `CTRL-d` - move the screen down by half
-* `CTRL-f` - move the whole screen down
-* `CTRL-b` - move the whole screen up
-* `CTRL-e` - move the screen up by one line
-* `CTRL-y` - move the screen down by one line
+* `CTRL-u` - scroll up by half
+* `CTRL-d` - scroll down by half
+* `CTRL-b` - scroll the whole screen up
+* `CTRL-f` - scroll the whole screen down
+* `CTRL-e` - scroll up by one line
+* `CTRL-y` - scroll down by one line
 * `zz` - move the screen so that current line would be in the middle
 * `zt` - move the screen so that current line would be in the top
 * `100zt` - move the screen so that line number **100** would be in the top
@@ -61,6 +61,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:!date` - run `date` command in your shell and print the output
 * `:read !date` - run `date` command in your shell and paste the output in editor
 * `:read !curl --silent http://example.com/file.txt` - download a file via **curl** and paste it's content in editor
+* `:set scrollbind!` or `:set scb!` - toggle synchronous scrolling. When enabled on 2+ splits, they will scroll simultaneously. Use `Ctrl-e` or `Ctrl-y` to scroll up and down by one line or use any other scrolling keystrokes.
 
 #### Insert mode
 
