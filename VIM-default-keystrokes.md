@@ -65,7 +65,7 @@ It is important to note that most (maybe even all) VIM commands related to text 
 * `:set scrollbind!` or `:set scb!` - toggle synchronous scrolling. When enabled on 2+ splits, they will scroll simultaneously. Use `Ctrl-e` or `Ctrl-y` to scroll up and down by one line or use any other scrolling keystrokes
 * `:set gdefault` - enable `g` flag by default. So for example if searching and replacing with this setting enabled, `g` flag will be used by default (enabling search and replace more than once per line)
 * `:%s/this/that/g` - Replace every occurrence in file of `this` to `that` (note that if `gdefault` setting is turned on, then `g` flag should be avoided, or it will give an opposite effect)
-* `:g/this/d` - delete all lines containing word `this`. Replace `this` with REGEX pattern and `d` with any other command (like `:g/^this\s*$/p` to print all lines that start with `this` and have spaces until the end of the line)
+* `:g/this/d` - delete all lines containing word `this`. Replace `this` with REGEX pattern and `d` with any other command (like `:g/^this\s*$/p` to print all lines that start with `this` and have spaces until the end of the line, or `:g/^$/d` to delete all empty lines)
 * `:g!/this/d` - delete all lines the DO NOT contain word `this`
 
 #### Insert mode
