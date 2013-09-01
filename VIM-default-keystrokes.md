@@ -54,14 +54,17 @@ It is important to note that most (maybe even all) VIM commands related to text 
 
 #### Command mode
 
-* `:set paste` - enables paste mode which disables all automatic formatting. Highly useful when pasting some preformatted piece of code.
+* `:verbose set SETTING` - show trace for setting `SETTING` (replace with any desired, like `gdefault`, `paste` etc)
+* `:set paste` - enables paste mode which disables all automatic formatting. Highly useful when pasting some preformatted piece of code
 * `:set nopaste` - disables paste mode
 * `:set list` - show tabs (displayed as "^I") and line endings (displayed as "$")
 * `:set ft=javascript` - set the filetype of current file to "javascript"
 * `:!date` - run `date` command in your shell and print the output
 * `:read !date` - run `date` command in your shell and paste the output in editor
 * `:read !curl --silent http://example.com/file.txt` - download a file via **curl** and paste it's content in editor
-* `:set scrollbind!` or `:set scb!` - toggle synchronous scrolling. When enabled on 2+ splits, they will scroll simultaneously. Use `Ctrl-e` or `Ctrl-y` to scroll up and down by one line or use any other scrolling keystrokes.
+* `:set scrollbind!` or `:set scb!` - toggle synchronous scrolling. When enabled on 2+ splits, they will scroll simultaneously. Use `Ctrl-e` or `Ctrl-y` to scroll up and down by one line or use any other scrolling keystrokes
+* `:set gdefault` - enable `g` flag by default. So for example if searching and replacing with this setting enabled, `g` flag will be used by default (enabling search and replace more than once per line)
+* `:%s/this/that/g` - Replace every occurrence in file of `this` to `that` (note that if `gdefault` setting is turned on, then `g` flag should be avoided, or it will give an opposite effect)
 
 #### Insert mode
 
