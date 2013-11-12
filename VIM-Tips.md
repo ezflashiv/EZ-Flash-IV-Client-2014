@@ -17,3 +17,9 @@ Select block of text and enter something like this in command mode (probably by 
 ```
 :'<,'>s/red/green/g
 ```
+
+### Prepend multiple lines with anything
+
+- `Ctrl-v` to switch to Visual Block mode
+- `Shift-i` to enter Insert mode compatible with Visual Block mode
+- Type anything and exit insert mode
