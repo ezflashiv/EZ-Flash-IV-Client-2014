@@ -48,3 +48,7 @@ gnome-session-properties
 ```
 
 Click `Add` to add any scripts that should be executed on startup.
+
+#### Enabling third party repo with MP3 goodies:
+
+Go to [rpmfusion](http://rpmfusion.org/Configuration) and follow setup instructions
