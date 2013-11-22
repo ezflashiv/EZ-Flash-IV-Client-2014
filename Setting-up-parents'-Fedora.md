@@ -38,3 +38,13 @@ MimeType=x-scheme-handler/skype;
 X-KDE-Protocols=skype
 Name[en_US]=Shutdown
 ```
+
+#### Startup applications/scripts
+
+Open startup preferences GUI tool:
+
+```
+gnome-session-properties
+```
+
+Click `Add` to add any scripts that should be executed on startup.
