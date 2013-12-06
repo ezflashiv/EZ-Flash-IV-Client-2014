@@ -52,3 +52,14 @@ Click `Add` to add any scripts that should be executed on startup.
 #### Enabling third party repo with MP3 goodies:
 
 Go to [rpmfusion](http://rpmfusion.org/Configuration) and follow setup instructions
+
+#### Disable screensaver
+
+Install `xscreensaver`
+
+```
+su
+yum install xscreensaver
+```
+
+Launch xscreensaver from app launcher and disable screensaver
