@@ -25,7 +25,7 @@ cp /usr/share/applications/skype.desktop ~/Desktop/
 To add Shutdown icon on Desktop create `~/Desktop/Shutdown.desktop` with following contents:
 
 ```
-Desktop Entry]
+[Desktop Entry]
 Name=Shutdown
 Comment=Power off
 Exec=/sbin/shutdown -h now
