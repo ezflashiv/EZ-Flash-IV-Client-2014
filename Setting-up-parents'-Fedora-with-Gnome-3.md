@@ -53,7 +53,7 @@ Click `Add` to add any scripts that should be executed on startup.
 
 Go to [rpmfusion](http://rpmfusion.org/Configuration) and follow setup instructions
 
-#### Disable screensaver
+#### Disable screensaver and screen lock
 
 Install `xscreensaver`
 
@@ -63,3 +63,5 @@ yum install xscreensaver
 ```
 
 Launch xscreensaver from app launcher and disable screensaver
+
+Go to `Dashboard` => `Apps` => `Utilities` => `Settings` => `Privacy` and disable auto screen lock
