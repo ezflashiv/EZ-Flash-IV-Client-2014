@@ -23,3 +23,8 @@ Select block of text and enter something like this in command mode (probably by 
 - `Ctrl-v` to switch to Visual Block mode
 - `Shift-i` to enter Insert mode compatible with Visual Block mode
 - Type anything and exit insert mode
+
+### Rename current file
+
+- `:saveas NEWFILENAME`
+- `:!rm -f OLDFILENAME`
