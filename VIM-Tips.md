@@ -26,5 +26,7 @@ Select block of text and enter something like this in command mode (probably by 
 
 ### Rename current file
 
+*Warning*: check your current working directory first, if it's not the same as your current file's directory path, you will have to provide full/relative path to your current directory. If you add `autocmd BufEnter * silent! lcd %:p:h` in your .vimrc though you should be always in the file's directory.
+
 - `:saveas NEWFILENAME`
 - `:!rm -f OLDFILENAME`
