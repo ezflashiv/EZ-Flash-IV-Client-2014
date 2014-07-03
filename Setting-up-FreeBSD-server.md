@@ -2,6 +2,7 @@
 
 ### Installing required packages on first boot
 
+- `pkg install zsh`
 - `pkg install vim`
 - `pkg install tmux`
 - `pkg install git`
@@ -31,3 +32,7 @@ daily_backup_pkgdb_dir="/var/backups"
 ### Configure
 
 - Save [this file](https://gist.githubusercontent.com/sergeylukin/bdd66197a79ef07b2bc2/raw/824d388b633815ac24d9707f587c45a74b2890ad/.vimrc) as `/root/.vimrc` in order to have nicely configured Vim for root user
+
+- `adduser` to add my own user
+
+- `chpass <USERNAME>` to change anything regarding that user
