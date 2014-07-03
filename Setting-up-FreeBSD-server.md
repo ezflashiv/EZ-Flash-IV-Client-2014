@@ -36,3 +36,5 @@ daily_backup_pkgdb_dir="/var/backups"
 - `adduser` to add my own user
 
 - `chpass <USERNAME>` to change anything regarding that user
+
+- Set UTF-8 locale by following [this guide](https://github.com/sergeylukin/dotfiles/wiki/Setting-up-FreeBSD-workstation#utf-8)
