@@ -90,3 +90,14 @@ In order to save this setting permanently add it to configuration file:
 ```
 echo "hw.syscons.bell=0" >> /etc/sysctl.conf
 ```
+
+### Expanding knowledge
+
+##### Read great manuals that are installed with FreeBSD:
+
+```bash
+man 1 intro # General commands manual
+man 9 intro # Manual for Kernel developers
+man 9 style # Code styleguide for Kernel developers
+# etc.
+```
