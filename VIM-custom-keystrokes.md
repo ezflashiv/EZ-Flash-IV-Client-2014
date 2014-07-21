@@ -70,4 +70,5 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 
 #### Normal mode
 
-* `<leader>pcd` - Format current PHP code according to PSR-0, PSR-1, PSR-2 standards
+* `<leader>ff` - Format current PHP file according to PSR-0, PSR-1, PSR-2 standards
+* `<leader>fd` - Format current directory with PHP files according to PSR-0, PSR-1, PSR-2 standards
