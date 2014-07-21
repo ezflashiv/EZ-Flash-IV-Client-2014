@@ -15,6 +15,7 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 * `<leader>r` - Reload opened files
 * `<leader>da` - Delete all buffers
 * `<leader>ev` - Open ~/.vimrc file in new tab - very fast & useful
+* `<leader>so` - Reload ~/.vimrc file without restarting VIM
 
 #### Visual mode
 
