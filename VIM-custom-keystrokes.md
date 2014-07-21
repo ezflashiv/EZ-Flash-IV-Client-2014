@@ -64,3 +64,10 @@ Note that you can override any of these by creating & editing `~/.vimrc.local` f
 #### Normal mode
 
 * `<leader>md` - convert markdown into HTML in current file
+
+
+## Plugin [PHP-CS-Fixer](https://github.com/stephpy/vim-php-cs-fixer)
+
+#### Normal mode
+
+* `<leader>pcd` - Format current PHP code according to PSR-0, PSR-1, PSR-2 standards
