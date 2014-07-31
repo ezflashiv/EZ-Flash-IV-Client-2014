@@ -7,6 +7,10 @@
 - `pkg install tmux`
 - `pkg install git`
 - `pkg install node npm`
+- `pkg install bash`
+
+#### Jasmine 
+- `pkg install qt4-qmake`
 
 ### Routine that should be repeated from time to time
 
