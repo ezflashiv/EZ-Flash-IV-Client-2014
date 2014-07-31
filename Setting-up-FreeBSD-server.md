@@ -6,6 +6,7 @@
 - `pkg install vim`
 - `pkg install tmux`
 - `pkg install git`
+- `pkg install node npm`
 
 ### Routine that should be repeated from time to time
 
