@@ -8,6 +8,18 @@ Following will create a `my.patch` file with changes you did against branch `mas
 git format-patch master --stdout > my.patch
 ```
 
+Following will create a `my.patch` file with changes that were done in 3 commits before commit `fb38e93`:
+
+```
+git format-patch -3 fb38e93 --stdout > my.patch
+```
+
+Following will create a `my.patch` file with changes in one commit of branch `my-feature`:
+
+```
+git format-patch -1 my-feature --stdout > my.patch
+```
+
 #### Apply patch
 
 Assuming you have a `my.patch` file with some changes you want to merge in:
