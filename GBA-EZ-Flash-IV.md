@@ -2,6 +2,8 @@
 
 Some games require additional actions before usage. Download `GBA Tool Advance` tool and find a `IPS` file with a patch for a specific rom and apply it then burn as usual.
 
+For example, Advanced Wars should be patched using GBATA's SRAM patcher on the .GBA file first, then burned with the EZ-Link client with `patch save` unchecked.
+
 ### Skin
 
 Just download the skin referenced in [this thread](http://www.sosuke.com/ezflash/viewtopic.php?f=13&t=17912). It's great. Place the downloaded file (`ezfla_up.bin` in root of SD card and boot GBA holding `R` button.
