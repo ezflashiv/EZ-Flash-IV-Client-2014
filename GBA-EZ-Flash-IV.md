@@ -11,3 +11,5 @@ Just download the skin referenced in [this thread](http://www.sosuke.com/ezflash
 - [EZ-Flash unofficial blog](http://ezflash4.tumblr.com)
 - [EZ-Flash official forum](http://www.sosuke.com/ezflash)
 - [ROMs](http://coolrom.com)
+- [More roms](http://doperoms.com)
+- [GBA utilities](http://www.ndsretro.com/gbadown.html)
