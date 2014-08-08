@@ -2,7 +2,7 @@
 
 Some games require additional actions before usage. Download `GBA Tool Advance` tool and find a `IPS` file with a patch for a specific rom and apply it then burn as usual.
 
-For example, Advanced Wars should be patched using GBATA's SRAM patcher on the .GBA file first, then burned with the EZ-Link client with `patch save` unchecked.
+For example, Advanced Wars should be patched using GBATA's SRAM patcher on the .GBA file first, then burned with the EZ-Link client with `patch save` unchecked. More details in [this thread](http://ezflash.sosuke.com/viewtopic.php?f=12&t=13261&hilit=advance+wars)
 
 ### Skin
 
