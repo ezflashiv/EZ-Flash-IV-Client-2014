@@ -6,7 +6,7 @@ For example, Advanced Wars should be patched using GBATA's SRAM patcher on the .
 
 Some games don't start at all and you see blank white screen instead. [This thread](http://ezflash.sosuke.com/viewtopic.php?f=12&t=11879) helped me, just download the patch and burn it on your gba.
 
-Some games require patching (like NES Classics), so in that case [this thread](http://ezflash.sosuke.com/viewtopic.php?f=6&t=3903) can help. You'll find a [file](http://sharebee.com/6091dd81) there which contains IPS patches for games named after their IDs in [emuparadise](http://emuparadise.me/) (for example Classic NES: Donkey Kong's ID is `1521`).
+Some games require patching (like NES Classics), so in that case [this thread](http://ezflash.sosuke.com/viewtopic.php?f=6&t=3903) or [this thread](http://gbatemp.net/threads/ips-patches-for-classic-nes-series.63195/) can help. You'll find a [file](http://sharebee.com/6091dd81) there which contains IPS patches for games named after their IDs in [emuparadise](http://emuparadise.me/) (for example Classic NES: Donkey Kong's ID is `1521`).
 
 ### Skin
 
