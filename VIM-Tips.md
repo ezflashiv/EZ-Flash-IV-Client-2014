@@ -30,3 +30,7 @@ Select block of text and enter something like this in command mode (probably by 
 
 - `:saveas NEWFILENAME`
 - `:!rm -f OLDFILENAME`
+
+### Save a file you opened without write permission
+
+- `:w !sudo tee %`
